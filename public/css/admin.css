@@ -1,35 +1,205 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);h1 {
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);@charset "UTF-8";
+
+.container {
+  width: 920px;
+}
+
+h1,
+h3,
+.room-body-title {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
-  margin: 20px auto;
+  margin: 30px auto 50px auto;
+  width: 920px;
+}
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .footer-title {
   text-align: center;
-  margin: 10px auto;
+  margin: 10px auto 30px auto;
 }
 
-.introduction {
+.introduction,
+.classroom-information,
+.fee-about,
+.class-card-about,
+.philosophy-body {
+  width: 920px;
   text-align: center;
-  margin: 10px auto 20px auto;
+  margin: 10px auto 50px auto;
+}
+
+/* ここから home */
+
+img.top-image1 {
+  height: 600px;
+  width: 920px;
+  margin-bottom: 80px;
 }
 
 .home-classroom {
+  width: 920px;
   text-align: center;
   margin: 10px auto 20px auto;
 }
 
 .home-teacher {
+  width: 920px;
   text-align: center;
   margin: 10px auto 20px auto;
 }
 
 .home-lesson {
+  width: 920px;
   text-align: center;
   margin: 10px auto 20px auto;
 }
 
 .home-under-content {
+  width: 920px;
+  float: left;
+}
+
+.home-access {
+  width: 300px;
+  margin-right: 5px;
   text-align: center;
+}
+
+.home-blog {
+  width: 300px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: center;
+}
+
+.home-contact {
+  width: 300px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+/*ここまで home */
+
+/*ここから classroom */
+
+.classroom-contents {
+  width: 800px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.classroom-headline {
+  width: 400px;
+  text-align: center;
+}
+
+.classroom-body {
+  width: 400px;
+  text-align: left;
+}
+
+.class-card {
+  width: 920px;
+  margin: 50px auto 50px auto;
+}
+
+.card {
+  width: 215px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+  text-align: center;
+}
+
+.card1 {
+  margin-right: 10px;
+}
+
+.card2 {
+  margin: 0 10px 0 10px;
+}
+
+.card3 {
+  margin-left: 10px;
+}
+
+.card-title {
+  margin-top: 30px;
+}
+
+.hidden_box {
+  margin: 2em 0;
+  padding: 0;
+  text-align: center;
+}
+
+.hidden_box label {
+  padding: 15px;
+  font-weight: bold;
+  border: solid 2px black;
+  cursor: pointer;
+}
+
+.hidden_box label:hover {
+  background: #efefef;
+}
+
+.hidden_box input {
+  display: none;
+}
+
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+.hidden_box input:checked ~ .hidden_show {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+
+.voice {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  border: double 5px #4ec4d3;
+}
+
+.voice p {
+  margin: 0;
+  padding: 0;
+}
+
+.student-voice-image {
+  height: 40px;
+  width: 40px;
+}
+
+.room-image-avi {
+  height: 250px;
+  width: 200px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.room-body-about {
+  width: 680px;
+}
+
+/*ここまで classroom */
+
+.swiper-container {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  padding: 0 15px;
 }
 

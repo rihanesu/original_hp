@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row">
         <div class="top-image">
-
+            <img src="{{ asset('image/P1-02.JPG') }}" class="top-image1">
         </div>
         <div class="introduction col-md-12 mt-4">
             <div class="introduction-title mb-4">
@@ -19,10 +19,19 @@
                 <p>すいとぴあ江南より徒歩１分弱の場所にあるピアノ教室です。</p>
             </div>
             <div class="introduction-image">
-                <img src="">
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="{{ asset('image/coffee2.png') }}"></div>
+                        <div class="swiper-slide"><img src="{{ asset('image/coffee3.jpeg') }}"></div>
+                        <div class="swiper-slide"><img src="{{ asset('image/coffee2.png') }}"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         </div>
-        <div class="home-classroom col-md-12">
+        <div class="home-classroom">
             <div class="home-classroom-title">
                 <h4>教室案内</h4>
             </div>
@@ -36,7 +45,7 @@
                 <a href="">MORE</a>
             </div>
         </div>
-        <div class="home-teacher col-md-12">
+        <div class="home-teacher">
             <div class="home-teacher-title">
                 <h4>講師紹介</h4>
             </div>
@@ -50,7 +59,7 @@
                 <a href="">MORE</a>
             </div>
         </div>
-        <div class="home-lesson col-md-12">
+        <div class="home-lesson">
             <div class="home-lesson-title">
                 <h4>レッスン案内</h4>
             </div>
@@ -64,8 +73,8 @@
                 <a href="">MORE</a>
             </div>
         </div>
-        <div class="home-under-content col-md-12 row">
-            <div class="home-access col-md-4">
+        <div class="home-under-content row">
+            <div class="home-access">
                 <div class="home-access-title">
                     <h4>アクセス</h4>
                 </div>
@@ -76,7 +85,7 @@
                     <a href="">MORE</a>
                 </div>
             </div>
-            <div class="home-blog col-md-4">
+            <div class="home-blog">
                 <div class="home-blog-title">
                     <h4>ブログ</h4>
                 </div>
@@ -87,7 +96,7 @@
                     <a href="">MORE</a>
                 </div>
             </div>
-            <div class="home-contact col-md-4">
+            <div class="home-contact">
                 <div class="home-contact-title">
                     <h4>お問い合わせ</h4>
                 </div>

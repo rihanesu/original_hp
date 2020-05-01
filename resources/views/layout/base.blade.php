@@ -9,9 +9,13 @@
         <title>@yield('title')</title>
 
         <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
-        <script src="{{ secure_asset('js/app.js') }}" defer></script>
+
+        <script src="{{ asset('js/app.js') }}" defer></script>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
+
+        <link href="{{ asset('css/swiper.min.css') }}" rel="stylesheet">
+
     </head>
     <body>
         <header>
@@ -19,15 +23,15 @@
                 <div class="top-title col-md-12">
                     <h1>林本ピアノ教室</h1>
                 </div>
-                <nav class="header-navbar col-md-8 mx-auto align-items-center">
+                <nav class="header-navbar col-md-12 mx-auto align-items-center">
                     <ul class="row justify-content-around">
-                        <li><a href="">トップページ</a></li>
-                        <li><a href="">教室案内</a></li>
-                        <li><a href="">講師紹介</a></li>
-                        <li><a href="">レッスン案内</a></li>
-                        <li><a href="">アクセス</a></li>
+                        <li><a href="{{ asset('home') }}">トップページ</a></li>
+                        <li><a href="{{ asset('classroom') }}">教室案内</a></li>
+                        <li><a href="{{ asset('teacher') }}">講師紹介</a></li>
+                        <li><a href="{{ asset('lesson') }}">レッスン案内</a></li>
+                        <li><a href="{{ asset('access') }}">アクセス</a></li>
                         <li><a href="">ブログ</a></li>
-                        <li><a href="">お問い合わせ</a></li>
+                        <li><a href="{{ asset('contact') }}">お問い合わせ</a></li>
                     </ul>
                 </nav>
             </div>
@@ -38,22 +42,21 @@
         <footer>
             <div class="footer container row align-items-center col-md-12 mx-auto">
                 <div class="footer-title col-md-12">
-                    <h3>林本ピアノ教室</h3>
+                    <h2>林本ピアノ教室</h2>
                 </div>
-                <nav class="header-navbar col-md-8 mx-auto align-items-center">
+                <nav class="header-navbar col-md-12 mx-auto align-items-center">
                     <ul class="row justify-content-around">
-                        <li><a href="">トップページ</a></li>
-                        <li><a href="">教室案内</a></li>
-                        <li><a href="">講師紹介</a></li>
-                        <li><a href="">レッスン案内</a></li>
-                        <li><a href="">アクセス</a></li>
+                        <li><a href="{{ asset('home') }}">トップページ</a></li>
+                        <li><a href="{{ asset('classroom') }}">教室案内</a></li>
+                        <li><a href="{{ asset('teacher') }}">講師紹介</a></li>
+                        <li><a href="{{ asset('lesson') }}">レッスン案内</a></li>
+                        <li><a href="{{ asset('access') }}">アクセス</a></li>
                         <li><a href="">ブログ</a></li>
-                        <li><a href="">お問い合わせ</a></li>
+                        <li><a href="{{ asset('contact') }}">お問い合わせ</a></li>
                     </ul>
                 </nav>
             </div>
         </footer>
+        <script src="{{ asset('js/swiper.min.js') }}"></script>
     </body>
-
-
 </html>

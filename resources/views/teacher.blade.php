@@ -1,1 +1,40 @@
-<h1>講師紹介</h1>
+@extends('layout.base')
+
+@section('title', '講師紹介')
+
+@section('content')
+<div class="container">
+    <div class="row">
+        <div class="teacher-title">
+            <h3>講師紹介</h3>
+        </div>
+        <div class="teacher-contents">
+            <img src="{{ asset('image/teacher.jpg') }}" class="teacher-image">
+            <div class="teacher-body">
+                <h4>生徒指導実績</h4>
+                <div class="row">
+                    <div class="teacher-body-left">
+                        <p>ヤマハコンクールYRF</p>
+                        <p>グレンツェンピアノコンクール</p>
+                    </div>
+                    <div class="teacher-body-right">
+                        <p>努力賞受賞</p>
+                        <p>金賞、銅賞、優秀賞、準賞受賞</p>
+                    </div>
+                    <div class="teacher-body-under">
+                        <p>保育士試験合格実績多数有り</p>
+                        <p>調理師希望で進学された生徒有り</p>
+                        <p>音大受験希望者有り</p>
+                        <p>指導歴２６年の経験豊富な指導に定評がある</p>
+                        <p>８年以上続けられている生徒多数</p>
+                        <p>大人の生徒の方多数有り</p>
+                        <p>発表会は毎年、林本麦子ピアノ教室のみの生徒で</p>
+                        <p>子供さんから大人の生徒さんまで多数出演</p>
+                        <p>親子連弾も毎年大盛況</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);@charset "UTF-8";
 
+/*body {
+  background-image: url('image/back.png');
+}*/
+
 .container {
   width: 920px;
 }
@@ -27,7 +31,8 @@ footer {
 .classroom-information,
 .fee-about,
 .class-card-about,
-.philosophy-body {
+.philosophy-body,
+.teacher-contents {
   width: 920px;
   text-align: center;
   margin: 10px auto 50px auto;
@@ -158,6 +163,7 @@ img.top-image1 {
   overflow: hidden;
   opacity: 0;
   transition: 0.8s;
+  background-color: #ffddff;
 }
 
 .hidden_box input:checked ~ .hidden_show {
@@ -194,6 +200,76 @@ img.top-image1 {
 }
 
 /*ここまで classroom */
+
+/*ここから teacher */
+
+.teacher-image {
+  width: 600px;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.teacher-body-left {
+  width: 400px;
+  text-align: right;
+}
+
+.teacher-body-right {
+  width: 400px;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.teacher-body-under {
+  text-align: center;
+  width: 920px;
+}
+
+/*ここまで teacher */
+
+/*ここから teacher */
+
+.lesson-content-image {
+  width: 920px;
+  text-align: center;
+  margin: auto;
+}
+
+.lesson-headline,
+.lesson-guide-title {
+  margin: 40px 0 30px 0;
+  text-align: center;
+}
+
+.lesson-content-body,
+.lesson-guide-body {
+  width: 800px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+/*ここまで teacher */
+
+/*ここから access */
+
+.access-body {
+  width: 920px;
+  text-align: center;
+}
+
+.access-body-left {
+  width: 400px;
+  text-align: right;
+  margin-right: 60px;
+  font-weight: bold;
+}
+
+.access-body-right {
+  width: 400px;
+  text-align: left;
+}
+
+/*ここまで access */
 
 .swiper-container {
   position: relative;

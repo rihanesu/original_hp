@@ -19,16 +19,10 @@
                 <p>すいとぴあ江南より徒歩１分弱の場所にあるピアノ教室です。</p>
             </div>
             <div class="introduction-image">
-                <div class="swiper-container">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="{{ asset('image/coffee2.png') }}"></div>
-                        <div class="swiper-slide"><img src="{{ asset('image/coffee3.jpeg') }}"></div>
-                        <div class="swiper-slide"><img src="{{ asset('image/coffee2.png') }}"></div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                </div>
+                <ul class="top-slider">
+                    <li class="top-slider-item"><img src="{{ asset('image/coffee2.png') }}"></li>
+                    <li class="top-slider-item"><img src="{{ asset('image/coffee3.jpeg') }}"></li>
+                </ul>
             </div>
         </div>
         <div class="home-classroom">

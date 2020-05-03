@@ -10,12 +10,12 @@
 
         <link href="https://fonts.googleapis.com/css?family=BioRhyme+Expanded" rel="stylesheet">
 
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+        <link href="{{ asset('js/slick.css') }}" rel="stylesheet" type="text/css">
+
         <script src="{{ asset('js/app.js') }}" defer></script>
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/admin.css') }}" rel="stylesheet">
-
-        <link href="{{ asset('css/swiper.min.css') }}" rel="stylesheet">
-
     </head>
     <body>
         <header>
@@ -57,6 +57,5 @@
                 </nav>
             </div>
         </footer>
-        <script src="{{ asset('js/swiper.min.js') }}"></script>
     </body>
 </html>

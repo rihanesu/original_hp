@@ -256,3 +256,38 @@ img.top-image1 {
 }
 
 /*ここまで access */
+.slick-arrow{//スライダー矢印
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  z-index: 1;
+  overflow: hidden;
+  text-indent: 500%;
+  white-space: nowrap;
+  border: none;
+  transform: none;
+  border-radius: 0;
+}
+.slick-prev{//スライダー矢印
+  left: -30px;
+  background: url(image/left-arrow-w.svg) center no-repeat rgba(255,255,255,0.6);
+  background-size: 50%;
+  &:hover{
+    background: url(image/left-arrow-w.svg) center no-repeat rgba(255,255,255,0.6);
+    background-size: 50%;
+  }
+}
+.slick-next{//スライダー矢印
+  right: -30px;
+  background: url(image/right-arrow-w.svg) center no-repeat rgba(255,255,255,0.6);
+  background-size: 50%;
+  &:hover{
+    background: url(image/right-arrow-w.svg) center no-repeat rgba(255,255,255,0.6);
+    background-size: 50%;
+  }
+  img {
+    width:100%;
+  }

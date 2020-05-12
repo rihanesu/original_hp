@@ -5,40 +5,41 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="classroom-title">
+        <div class="classroom-title col-md-12">
             <h3>教室案内</h3>
         </div>
-        <div class="classroom-information">
+        <div class="classroom-information col-md-12">
             <p>愛知県江南市　すいとぴあ江南から　徒歩１分弱の場所にあるピアノ教室です。</p>
             <p>愛知県と岐阜県の県境にありますので、岐阜県各務原市からも近い教室です。</p>
-            <p>丹羽郡扶桑町、大口町、犬山市、一宮市からも、近くて通いやすい場所にある教室です。</p>
+            <p>丹羽郡扶桑町、大口町、犬山市、一宮市からも</p>
+            <p>近くて通いやすい場所にある教室です。</p>
         </div>
-        <div class="classroom-contents row">
-            <p class="classroom-headline">レッスン案内</p>
-            <p class="classroom-body">幼児から大人の方の個人レッスン<br>保育士希望の方・現在幼稚園教諭、現役の保育士の方</p>
-            <p class="classroom-headline">レッスン日時</p>
-            <p class="classroom-body">月曜日〜土曜日　８：００　〜　２０：３０　<br>（日曜日/祝日は定休日）</p>
-            <p class="classroom-headline">レッスン時間</p>
-            <p class="classroom-body">３０分</p>
-            <p class="classroom-headline">レッスン回数</p>
-            <p class="classroom-body">年間４１回　（発表会含む）</p>
-            <p class="classroom-headline">発表会</p>
-            <p class="classroom-body">毎年　江南市民文化会館　小ホールにて開催</p>
-            <p class="classroom-headline">教室設備</p>
-            <p class="classroom-body">自宅敷地内別棟の防音室（待合室完備）で抜群の落ち着いた環境でのレッスン<br>レッスン室の隣、待合室にて電子ピアノで練習が出来ます</p>
-            <p class="classroom-headline">駐車場</p>
-            <p class="classroom-body">４台完備</p>
+        <div class="classroom-contents row col-md-12 mx-auto text-align-center">
+            <p class="classroom-headline col-md-6">レッスン案内</p>
+            <p class="classroom-body col-md-5">幼児から大人の方の個人レッスン<br>保育士希望の方・現在幼稚園教諭、現役の保育士の方</p>
+            <p class="classroom-headline col-md-6">レッスン日時</p>
+            <p class="classroom-body col-md-5">月曜日〜土曜日　８：００　〜　２０：３０　<br>（日曜日/祝日は定休日）</p>
+            <p class="classroom-headline col-md-6">レッスン時間</p>
+            <p class="classroom-body col-md-5">３０分</p>
+            <p class="classroom-headline col-md-6">レッスン回数</p>
+            <p class="classroom-body col-md-5">年間４１回　（発表会含む）</p>
+            <p class="classroom-headline col-md-6">発表会</p>
+            <p class="classroom-body col-md-5">毎年　江南市民文化会館　小ホールにて開催</p>
+            <p class="classroom-headline col-md-6">教室設備</p>
+            <p class="classroom-body col-md-5">自宅敷地内別棟の防音室（待合室完備）で抜群の落ち着いた環境でのレッスン<br>レッスン室の隣、待合室にて電子ピアノで練習が出来ます</p>
+            <p class="classroom-headline col-md-6">駐車場</p>
+            <p class="classroom-body col-md-5">４台完備</p>
         </div>
-        <div class="fee">
+        <div class="fee col-md-12">
             <div class="fee-title">
                 <h3>料金</h3>
             </div>
-            <div class="fee-about">
+            <div class="fee-about col-md-12">
                 <p>入会金　　　３０００円</p>
                 <p>（母子家庭の方は免除させて頂きます）</p>
             </div>
-            <div class="class-card row">
-                <section class="card card1">
+            <div class="class-card row col-md-12">
+                <section class="card col-md-3">
                     <div class="card-content">
                         <div class="card-title">
                             <h4>導入　/　初級</h4>
@@ -53,7 +54,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="card card2">
+                <section class="card col-md-3">
                     <div class="card-content">
                         <div class="card-title">
                             <h4>中級</h4>
@@ -69,7 +70,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="card card2">
+                <section class="card col-md-3">
                     <div class="card-content">
                         <div class="card-title">
                             <h4>上級</h4>
@@ -85,7 +86,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="card card3">
+                <section class="card col-md-3">
                     <div class="card-content">
                         <div class="card-title">
                             <h4>保育士コース</h4>
@@ -107,7 +108,7 @@
                 <p>保育士希望の高校生や大学生の男性の方は、入会が可能です。</p>
             </div>
         </div>
-        <div class="question">
+        <div class="question col-md-12">
             <div class="question-title">
                 <h3>よくある質問</h3>
             </div>
@@ -267,7 +268,7 @@
                 <p>一人一人の音楽に向き合う真剣な気持ちに応えられるように、これからも指導していきたいと心に誓っています。</p>
             </div>
         </div>
-        <div class="student">
+        <div class="student col-md-12">
             <div class="student-title">
                 <h3>生徒の声</h3>
             </div>
@@ -334,14 +335,14 @@
                 </div>
             </div>
         </div>
-        <div class="room">
+        <div class="room col-md-12">
             <div class="room-title">
                 <h3>教室設備</h3>
             </div>
             <div class="room-body">
                 <h4 class="room-body-title">レッスン室はアビテックス</h4>
                 <div class="row">
-                    <img src="{{ asset('image/room1.jpg') }}" class="room-image-avi">
+                    <img src="{{ asset('image/room1.jpg') }}" class="col-md-3">
                     <div class="room-body-about">
                         <p>教室のレッスン室には、ヤマハのアビテックスという防音室があります。</p>
                         <p>アビテックスは、優れた音性能をもつ独自の３層構造のパネルを用いていて</p>

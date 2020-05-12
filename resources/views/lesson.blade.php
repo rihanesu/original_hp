@@ -5,18 +5,18 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="lesson-title">
+        <div class="lesson-title col-md-12">
             <h3>レッスン案内</h3>
         </div>
-        <div class="lesson-contents">
+        <div class="lesson-contents col-md-12">
             <div class="lesson-content-image">
                 <img src="{{ asset('image/lesson.jpg') }}">
             </div>
-            <div class="lesson-content">
+            <div class="lesson-content col-md-12">
                 <div class="lesson-headline">
                     <h4>その１　得意なところを伸ばします</h4>
                 </div>
-                <div class="lesson-content-body">
+                <div class="lesson-content-body col-md-12">
                     <p>ピアノは弾けるようになるだけでは、本当に弾けるようになったとは言えません。</p>
                     <p>いかに音楽的に表現できるようになったかが大切なことです林本麦子ピアノ教室では</p>
                     <p>自分から練習がしたくなるレッスンをします。</p>
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <div class="lesson-contents">
+        <div class="lesson-contents col-md-12">
             <div class="lesson-guide-title">
                 <h4>幼児の方へ</h4>
             </div>

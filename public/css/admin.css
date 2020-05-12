@@ -1,20 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);@charset "UTF-8";
 
-/*body {
-  background-image: url('image/back.png');
-}*/
-
-.container {
-  width: 920px;
-}
-
 h1,
 h3,
 .room-body-title {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
   margin: 30px auto 50px auto;
-  width: 920px;
+}
+
+p {
+  font-size: 2vw;
 }
 
 footer {
@@ -33,58 +28,40 @@ footer {
 .class-card-about,
 .philosophy-body,
 .teacher-contents {
-  width: 920px;
   text-align: center;
   margin: 10px auto 50px auto;
 }
 
 /* ここから home */
 
-img.top-image1 {
-  height: 600px;
-  width: 920px;
-  margin-bottom: 80px;
-}
-
 .home-classroom {
-  width: 920px;
   text-align: center;
   margin: 10px auto 20px auto;
 }
 
 .home-teacher {
-  width: 920px;
   text-align: center;
   margin: 10px auto 20px auto;
 }
 
 .home-lesson {
-  width: 920px;
   text-align: center;
   margin: 10px auto 20px auto;
 }
 
 .home-under-content {
-  width: 920px;
   float: left;
 }
 
 .home-access {
-  width: 300px;
-  margin-right: 5px;
   text-align: center;
 }
 
 .home-blog {
-  width: 300px;
-  margin-left: 5px;
-  margin-right: 5px;
   text-align: center;
 }
 
 .home-contact {
-  width: 300px;
-  margin-left: 5px;
   text-align: center;
 }
 
@@ -93,43 +70,24 @@ img.top-image1 {
 /*ここから classroom */
 
 .classroom-contents {
-  width: 800px;
   margin-bottom: 60px;
   text-align: center;
 }
 
-.classroom-headline {
-  width: 400px;
-  text-align: center;
-}
-
-.classroom-body {
-  width: 400px;
-  text-align: left;
-}
-
 .class-card {
-  width: 920px;
-  margin: 50px auto 50px auto;
+  margin: 50px auto;
 }
 
 .card {
-  width: 215px;
   border-radius: 5px;
   box-shadow: 0 2px 5px #ccc;
   text-align: center;
+  margin: 0 1px 20px 0;
+  padding: 0;
 }
 
-.card1 {
-  margin-right: 10px;
-}
-
-.card2 {
-  margin: 0 10px 0 10px;
-}
-
-.card3 {
-  margin-left: 10px;
+.card p {
+  font-size: 20px;
 }
 
 .card-title {
@@ -188,49 +146,25 @@ img.top-image1 {
   width: 40px;
 }
 
-.room-image-avi {
-  height: 250px;
-  width: 200px;
-  margin-left: 50px;
-  margin-right: 20px;
-}
-
-.room-body-about {
-  width: 680px;
-}
-
 /*ここまで classroom */
 
 /*ここから teacher */
 
 .teacher-image {
-  width: 600px;
-  height: 500px;
+  width: 70vw;
+  height: 60vw;
   margin-bottom: 50px;
-}
-
-.teacher-body-left {
-  width: 400px;
-  text-align: right;
-}
-
-.teacher-body-right {
-  width: 400px;
-  text-align: left;
-  margin-left: 150px;
 }
 
 .teacher-body-under {
   text-align: center;
-  width: 920px;
 }
 
 /*ここまで teacher */
 
-/*ここから teacher */
+/*ここから lesson */
 
 .lesson-content-image {
-  width: 920px;
   text-align: center;
   margin: auto;
 }
@@ -243,30 +177,62 @@ img.top-image1 {
 
 .lesson-content-body,
 .lesson-guide-body {
-  width: 800px;
   text-align: left;
-  margin-left: 100px;
 }
 
-/*ここまで teacher */
+/*ここまで lesson */
 
 /*ここから access */
 
 .access-body {
-  width: 920px;
   text-align: center;
 }
 
-.access-body-left {
-  width: 400px;
-  text-align: right;
-  margin-right: 60px;
-  font-weight: bold;
-}
-
-.access-body-right {
-  width: 400px;
+.access-body-right p {
   text-align: left;
 }
 
 /*ここまで access */
+
+.slick-arrow {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 30px;
+  width: 30px;
+  z-index: 1;
+  overflow: hidden;
+  text-indent: 500%;
+  white-space: nowrap;
+  border: none;
+  transform: none;
+  border-radius: 0;
+}
+
+.slick-prev {
+  left: -30px;
+  background: url(/images/left-arrow-w.svg?e5716838912ecfebca1220de48b46d7e) center no-repeat rgba(255, 255, 255, 0.6);
+  background-size: 50%;
+}
+
+.slick-prev:hover {
+  background: url(/images/left-arrow-w.svg?e5716838912ecfebca1220de48b46d7e) center no-repeat rgba(255, 255, 255, 0.6);
+  background-size: 50%;
+}
+
+.slick-next {
+  right: -30px;
+  background: url(/images/right-arrow-w.svg?100ad34876cd5e4bde08fc43c92827d9) center no-repeat rgba(255, 255, 255, 0.6);
+  background-size: 50%;
+}
+
+.slick-next:hover {
+  background: url(/images/right-arrow-w.svg?100ad34876cd5e4bde08fc43c92827d9) center no-repeat rgba(255, 255, 255, 0.6);
+  background-size: 50%;
+}
+
+img {
+  width: 100%;
+}
+

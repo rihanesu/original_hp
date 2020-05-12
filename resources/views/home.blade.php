@@ -6,7 +6,19 @@
 <div class="container">
     <div class="row">
         <div class="top-image col-md-12 align-items-center">
-            <img src="{{ asset('image/P1-02.JPG') }}" class="top-image1">
+            <div class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="{{ asset('image/P1-02.JPG') }}" class="top-image1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ asset('image/1-06re01.JPG') }}" class="top-image2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{{ asset('image/1-08.JPG') }}" class="top-image3">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="introduction col-md-12 mt-4">
             <div class="introduction-title mb-4">
@@ -28,7 +40,7 @@
             </div>
         </div>
         <div class="home-classroom col-md-12">
-            <div class="home-classroom-title">
+            <div class="home-headline">
                 <h4>教室案内</h4>
             </div>
             <div class="home-classroom-body">
@@ -38,18 +50,14 @@
                 <p>近くて通いやすい場所にある教室です。</p>
             </div>
             <div class="home-classroom-image col-md-10">
-                <ul class="top-slider">
-                    <li class="top-slider-item"><img src="{{ asset('image/IMG_9657.JPG') }}"></li>
-                    <li class="top-slider-item"><img src="{{ asset('image/IMG_9659.JPG') }}"></li>
-                    <li class="top-slider-item"><img src="{{ asset('image/IMG_9668.JPG') }}"></li>
-                </ul>
+
             </div>
             <div class="home-link">
-                <a href="{{ asset('classroom') }}">MORE</a>
+                <a href="{{ asset('classroom') }}" class="link-border">MORE</a>
             </div>
         </div>
         <div class="home-teacher col-md-12">
-            <div class="home-teacher-title">
+            <div class="home-headline">
                 <h4>講師紹介</h4>
             </div>
             <div class="home-teacher-body">
@@ -59,54 +67,58 @@
 
             </div>
             <div class="home-link">
-                <a href="">MORE</a>
+                <a href="" class="link-border">MORE</a>
             </div>
         </div>
         <div class="home-lesson col-md-12">
-            <div class="home-lesson-title">
+            <div class="home-headline">
                 <h4>レッスン案内</h4>
             </div>
             <div class="home-lesson-body">
-                <p></p>
+                <p>林本ピアノ教室の３つのお約束</p>
+                <p>１、得意なところを伸ばします</p>
+                <p>２、分からないが分かるに変わります</p>
+                <p>３、諦めずに続ける力を育てます</p>
             </div>
             <div class="home-lesson-image">
 
             </div>
             <div class="home-link">
-                <a href="">MORE</a>
+                <a href="" class="link-border">MORE</a>
             </div>
         </div>
         <div class="home-access col-md-4">
-            <div class="home-access-title">
+            <div class="home-headline">
                 <h4>アクセス</h4>
             </div>
             <div class="home-access-body">
                 <p></p>
             </div>
             <div class="home-link">
-                <a href="">MORE</a>
+                <a href="" class="link-border">MORE</a>
             </div>
         </div>
         <div class="home-blog col-md-4">
-            <div class="home-blog-title">
+            <div class="home-headline">
                 <h4>ブログ</h4>
             </div>
             <div class="home-blog-body">
-                <p></p>
+                <p>当教室のブログです</p>
+                <p>外部サイトとなります</p>
             </div>
             <div class="home-link">
-                <a href="">MORE</a>
+                <a href="" class="link-border">MORE</a>
             </div>
         </div>
         <div class="home-contact col-md-4">
-            <div class="home-contact-title">
+            <div class="home-headline">
                 <h4>お問い合わせ</h4>
             </div>
             <div class="home-contact-body">
                 <p></p>
             </div>
             <div class="home-link">
-                <a href="">MORE</a>
+                <a href="" class="link-border">MORE</a>
             </div>
         </div>
     </div>

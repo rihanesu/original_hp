@@ -27,7 +27,7 @@
                 </div>
                 <nav class="header-navbar col-md-12 mx-auto align-items-center">
                     <ul class="row justify-content-around">
-                        <li><a href="{{ asset('home') }}">トップページ</a></li>
+                        <li><a href="{{ asset('/') }}">トップページ</a></li>
                         <li><a href="{{ asset('classroom') }}">教室案内</a></li>
                         <li><a href="{{ asset('teacher') }}">講師紹介</a></li>
                         <li><a href="{{ asset('lesson') }}">レッスン案内</a></li>

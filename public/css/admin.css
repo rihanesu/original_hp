@@ -34,35 +34,25 @@ footer {
 
 /* ここから home */
 
-.home-classroom {
-  text-align: center;
-  margin: 10px auto 20px auto;
-}
-
-.home-teacher {
-  text-align: center;
-  margin: 10px auto 20px auto;
-}
-
-.home-lesson {
-  text-align: center;
-  margin: 10px auto 20px auto;
-}
-
-.home-under-content {
-  float: left;
-}
-
-.home-access {
-  text-align: center;
-}
-
-.home-blog {
-  text-align: center;
-}
-
+.home-classroom,
+.home-teacher,
+.home-lesson,
+.home-access,
+.home-blog,
 .home-contact {
   text-align: center;
+  margin: 30px auto;
+}
+
+.home-headline {
+  margin: 20px 0px;
+}
+
+.link-border {
+  text-decoration: none;
+  padding: 5px 10px;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
 }
 
 /*ここまで home */

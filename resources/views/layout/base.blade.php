@@ -25,16 +25,21 @@
                 <div class="top-title col-md-12">
                     <h1>林本ピアノ教室</h1>
                 </div>
-                <nav class="header-navbar col-md-12 mx-auto align-items-center">
-                    <ul class="row justify-content-around">
-                        <li><a href="{{ asset('/') }}">トップページ</a></li>
-                        <li><a href="{{ asset('classroom') }}">教室案内</a></li>
-                        <li><a href="{{ asset('teacher') }}">講師紹介</a></li>
-                        <li><a href="{{ asset('lesson') }}">レッスン案内</a></li>
-                        <li><a href="{{ asset('access') }}">アクセス</a></li>
-                        <li><a href="">ブログ</a></li>
-                        <li><a href="{{ asset('contact') }}">お問い合わせ</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-md navbar-light col-md-10 mx-auto">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="responsiveMenu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('lesson') }}">レッスン案内</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('access') }}">アクセス</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="">ブログ</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('contact') }}">お問い合わせ</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -46,16 +51,26 @@
                 <div class="footer-title col-md-12">
                     <h2>林本ピアノ教室</h2>
                 </div>
-                <nav class="header-navbar col-md-12 mx-auto align-items-center">
-                    <ul class="row justify-content-around">
-                        <li><a href="{{ asset('home') }}">トップページ</a></li>
-                        <li><a href="{{ asset('classroom') }}">教室案内</a></li>
-                        <li><a href="{{ asset('teacher') }}">講師紹介</a></li>
-                        <li><a href="{{ asset('lesson') }}">レッスン案内</a></li>
-                        <li><a href="{{ asset('access') }}">アクセス</a></li>
-                        <li><a href="">ブログ</a></li>
-                        <li><a href="{{ asset('contact') }}">お問い合わせ</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-sm navbar-light col-md-10">
+                    <button class="navbar-toggler" type="button"
+                        data-toggle="collapse"
+                        data-target="#navmenu1"
+                        aria-controls="navmenu1"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navmenu1">
+                        <ul class="navbar-nav justify-content-around">
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('lesson') }}">レッスン案内</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('access') }}">アクセス</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="">ブログ</a></li>
+                            <li class="nav-item"><a  class="nav-link" href="{{ asset('contact') }}">お問い合わせ</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </div>
         </footer>

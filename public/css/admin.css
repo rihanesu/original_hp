@@ -5,11 +5,12 @@ h3,
 .room-body-title {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
-  margin: 30px auto 50px auto;
+  margin: 20px auto 30px auto;
 }
 
 p {
-  font-size: 2vw;
+  font-size: 14px;
+  margin: 10px 0;
 }
 
 footer {
@@ -32,6 +33,10 @@ footer {
   margin: 10px auto 50px auto;
 }
 
+nav {
+  text-align: center;
+}
+
 /* ここから home */
 
 .home-classroom,
@@ -48,11 +53,17 @@ footer {
   margin: 20px 0px;
 }
 
+.introduction-text {
+  float: left;
+  padding: 15px 0px 15px 0px;
+}
+
 .link-border {
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 5px 20px;
   border-top: 1px solid blue;
   border-bottom: 1px solid blue;
+  margin-top: 10px;
 }
 
 /*ここまで home */
@@ -201,7 +212,7 @@ footer {
 }
 
 .slick-prev {
-  left: -30px;
+  left: -10px;
   background: url(/images/left-arrow-w.svg?e5716838912ecfebca1220de48b46d7e) center no-repeat rgba(255, 255, 255, 0.6);
   background-size: 50%;
 }
@@ -212,7 +223,7 @@ footer {
 }
 
 .slick-next {
-  right: -30px;
+  right: -10px;
   background: url(/images/right-arrow-w.svg?100ad34876cd5e4bde08fc43c92827d9) center no-repeat rgba(255, 255, 255, 0.6);
   background-size: 50%;
 }

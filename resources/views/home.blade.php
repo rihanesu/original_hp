@@ -5,120 +5,114 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="top-image col-md-12 align-items-center">
-            <div class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="{{ asset('image/P1-02.JPG') }}" class="top-image1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('image/1-06re01.JPG') }}" class="top-image2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="{{ asset('image/1-08.JPG') }}" class="top-image3">
+        <div class="col-md-12">
+            <ul class="top-slider col-md-12">
+                <li class="top-slider-item"><img src="{{ asset('image/IMG_9657.JPG') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/IMG_9659.JPG') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/IMG_9668.JPG') }}"></li>
+            </ul>
+        </div>
+        <div class="col-md-12">
+            <div class="introduction col-md-12">
+                <div class="row">
+                    <img class="col-md-6" src="{{ asset('image/IMG_9668.JPG') }}">
+                    <div class="col-md-6">
+                        <h2>Introduction</h2>
+                        <ul class="introduction-body">
+                            <li class="introduction-text">やる気をひきだし驚くほど成長できるピアノ教室です</li>
+                            <li class="introduction-text">保育士希望の方は伴奏と練習のコツを覚えて夢が叶います</li>
+                            <li class="introduction-text">自分の弾きたいを応援し楽しく基礎力をつけ</li>
+                            <li class="introduction-text">音楽のある豊かな人生を応援します</li>
+                            <li class="introduction-text">すいとぴあ江南より徒歩１分の場所にあるピアノ教室です</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="introduction col-md-12 mt-4">
-            <div class="introduction-title mb-4">
-                <h4>Introduction</h4>
-            </div>
-            <div class="introduction-body col-md-12">
-                <p>やる気をひきだし驚くほど成長できるピアノ教室です。</p>
-                <p>保育士希望の方は、伴奏付けと練習のコツを覚えて夢が叶います。</p>
-                <p>自分の弾きたいを応援し、楽しく基礎力をつけ</p>
-                <p>音楽のある豊かな人生を応援します。</p>
-                <p>すいとぴあ江南より徒歩１分弱の場所にあるピアノ教室です。</p>
-            </div>
-            <div class="introduction-image col-md-10">
-                <ul class="top-slider">
-                    <li class="top-slider-item"><img src="{{ asset('image/IMG_9657.JPG') }}"></li>
-                    <li class="top-slider-item"><img src="{{ asset('image/IMG_9659.JPG') }}"></li>
-                    <li class="top-slider-item"><img src="{{ asset('image/IMG_9668.JPG') }}"></li>
-                </ul>
-            </div>
-        </div>
-        <div class="home-classroom col-md-12">
-            <div class="home-headline">
-                <h4>教室案内</h4>
-            </div>
-            <div class="home-classroom-body">
-                <p>愛知県江南市すいとぴあ江南から徒歩１分の場所にあるピアノ教室です。</p>
-                <p>愛知県と岐阜県の県境にありますので、岐阜県各務原市からも近い教室です。</p>
-                <p>丹羽郡扶桑町、大口町、犬山市、一宮市からも</p>
-                <p>近くて通いやすい場所にある教室です。</p>
-            </div>
-            <div class="home-classroom-image col-md-10">
-
-            </div>
-            <div class="home-link">
+            <div class="home-classroom col-md-12">
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <h2>教室案内</h2>
+                        <ul class="introduction-body">
+                            <li class="introduction-text">レッスン室ではカワイのRX-G1のグランドピアノ</li>
+                            <li class="introduction-text">待合室ではカシオCELVIANOグランドハイブリットGP-500</li>
+                            <li class="introduction-text">二つのピアノで</li>
+                            <li class="introduction-text">レッスン室にはアビテックスの防音室があり</li>
+                            <li class="introduction-text">抜群の環境で落ち着いたレッスンが行えます</li>
+                        </ul>
+                    </div>
+                    <div class="introduction-image col-md-6">
+                        <img src="{{ asset('image/IMG_9668.JPG') }}">
+                    </div>
+                </div>
                 <a href="{{ asset('classroom') }}" class="link-border">MORE</a>
             </div>
-        </div>
-        <div class="home-teacher col-md-12">
-            <div class="home-headline">
-                <h4>講師紹介</h4>
+            <div class="home-teacher col-md-12">
+                <div class="row mb-5">
+                    <img class="col-md-6" src="{{ asset('image/IMG_9668.JPG') }}">
+                    <div class="col-md-6">
+                        <h2>講師紹介</h2>
+                        <ul class="introduction-body">
+                            <li class="introduction-text">林本　麦子</li>
+                            <li class="introduction-text">名古屋芸術大学卒業</li>
+                            <li class="introduction-text">ヤマハ音楽教室個人レッスン７年担当</li>
+                            <li class="introduction-text">その後自宅にてピアノ教室を開設</li>
+                            <li class="introduction-text">指導歴２６年</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="{{ asset('teacher') }}" class="link-border">MORE</a>
             </div>
-            <div class="home-teacher-body">
-                <p></p>
+            <div class="home-classroom col-md-12">
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <h2>レッスン案内</h2>
+                        <ul class="introduction-body">
+                            <li class="introduction-text">林本ピアノ教室の３つのお約束</li>
+                            <li class="introduction-text">１、得意なところを伸ばします</li>
+                            <li class="introduction-text">２、分からないが分かるに変わります</li>
+                            <li class="introduction-text">３、諦めずに続ける力を育てます</li>
+                            <li class="introduction-text">抜群の環境で落ち着いたレッスンが行えます</li>
+                        </ul>
+                    </div>
+                    <div class="introduction-image col-md-6">
+                        <img src="{{ asset('image/IMG_9668.JPG') }}">
+                    </div>
+                </div>
+                <a href="{{ asset('lesson') }}" class="link-border">MORE</a>
             </div>
-            <div class="home-teacher-image">
-
+            <div class="home-access col-md-4">
+                <div class="home-headline">
+                    <h2>アクセス</h2>
+                </div>
+                <div class="home-access-body">
+                    <p></p>
+                </div>
+                <div class="home-link">
+                    <a href="" class="link-border">MORE</a>
+                </div>
             </div>
-            <div class="home-link">
-                <a href="" class="link-border">MORE</a>
+            <div class="home-blog col-md-4">
+                <div class="home-headline">
+                    <h2>ブログ</h2>
+                </div>
+                <div class="home-blog-body">
+                    <p>当教室のブログです</p>
+                    <p>外部サイトとなります</p>
+                </div>
+                <div class="home-link">
+                    <a href="" class="link-border">MORE</a>
+                </div>
             </div>
-        </div>
-        <div class="home-lesson col-md-12">
-            <div class="home-headline">
-                <h4>レッスン案内</h4>
-            </div>
-            <div class="home-lesson-body">
-                <p>林本ピアノ教室の３つのお約束</p>
-                <p>１、得意なところを伸ばします</p>
-                <p>２、分からないが分かるに変わります</p>
-                <p>３、諦めずに続ける力を育てます</p>
-            </div>
-            <div class="home-lesson-image">
-
-            </div>
-            <div class="home-link">
-                <a href="" class="link-border">MORE</a>
-            </div>
-        </div>
-        <div class="home-access col-md-4">
-            <div class="home-headline">
-                <h4>アクセス</h4>
-            </div>
-            <div class="home-access-body">
-                <p></p>
-            </div>
-            <div class="home-link">
-                <a href="" class="link-border">MORE</a>
-            </div>
-        </div>
-        <div class="home-blog col-md-4">
-            <div class="home-headline">
-                <h4>ブログ</h4>
-            </div>
-            <div class="home-blog-body">
-                <p>当教室のブログです</p>
-                <p>外部サイトとなります</p>
-            </div>
-            <div class="home-link">
-                <a href="" class="link-border">MORE</a>
-            </div>
-        </div>
-        <div class="home-contact col-md-4">
-            <div class="home-headline">
-                <h4>お問い合わせ</h4>
-            </div>
-            <div class="home-contact-body">
-                <p></p>
-            </div>
-            <div class="home-link">
-                <a href="" class="link-border">MORE</a>
+            <div class="home-contact col-md-4">
+                <div class="home-headline">
+                    <h2>お問い合わせ</h2>
+                </div>
+                <div class="home-contact-body">
+                    <p></p>
+                </div>
+                <div class="home-link">
+                    <a href="" class="link-border">MORE</a>
+                </div>
             </div>
         </div>
     </div>

@@ -57,13 +57,13 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-around col-md-12" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('lesson') }}">レッスン案内</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('access') }}">アクセス</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('https://ameblo.jp/hayashimoto-piano/') }}">ブログ</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('https://ssl.form-mailer.jp/fms/e39725dd489193') }}">お問い合わせ</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('lesson') }}">レッスン案内</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('access') }}">アクセス</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('https://ameblo.jp/hayashimoto-piano/') }}">ブログ</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('https://ssl.form-mailer.jp/fms/e39725dd489193') }}">お問い合わせ</a></li>
                         </ul>
                     </div>
                 </nav>

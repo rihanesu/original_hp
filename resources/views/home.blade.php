@@ -101,7 +101,7 @@
                         <p>外部サイトとなります</p>
                     </div>
                     <div class="home-link">
-                        <a href="" class="link-border">MORE</a>
+                        <a href="{{ asset('https://ameblo.jp/hayashimoto-piano/') }}" class="link-border">MORE</a>
                     </div>
                 </div>
                 <div class="home-contact col-md-4">
@@ -112,7 +112,7 @@
                         <p></p>
                     </div>
                     <div class="home-link">
-                        <a href="" class="link-border">MORE</a>
+                        <a href="{{ asset('https://ssl.form-mailer.jp/fms/e39725dd489193') }}" class="link-border">MORE</a>
                     </div>
                 </div>
             </div>

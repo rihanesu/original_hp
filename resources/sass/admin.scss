@@ -16,13 +16,12 @@ p {
 }
 
 footer {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin: 80px 0 60px 0;
 }
 
 .footer-title {
   text-align: center;
-  margin: 10px auto 30px auto;
+  margin: 10px auto 20px auto;
 }
 
 .introduction, .classroom-information, .fee-about, .class-card-about, .philosophy-body, .teacher-contents {
@@ -32,7 +31,12 @@ footer {
 
 nav {
   text-align: center;
-
+  .nav-item {
+    margin: 0 40px;
+  }
+  .nav-item-home {
+    margin: 0 37px;
+  }
 }
 
 .base-title {

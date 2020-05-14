@@ -51,19 +51,19 @@
                 <div class="footer-title col-md-12">
                     <h2>林本ピアノ教室</h2>
                 </div>
-                <nav class="navbar navbar-expand-md navbar-light col-md-12">
+                <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-around col-md-12" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('lesson') }}">レッスン案内</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('access') }}">アクセス</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('https://ameblo.jp/hayashimoto-piano/') }}">ブログ</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ asset('https://ssl.form-mailer.jp/fms/e39725dd489193') }}">お問い合わせ</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('lesson') }}">レッスン案内</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('access') }}">アクセス</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('https://ameblo.jp/hayashimoto-piano/') }}">ブログ</a></li>
+                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('https://ssl.form-mailer.jp/fms/e39725dd489193') }}">お問い合わせ</a></li>
                         </ul>
                     </div>
                 </nav>

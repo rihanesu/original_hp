@@ -4,7 +4,7 @@
 
 }
 
-h1, h3, .room-body-title {
+h1, h2, h3, {
   font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
   margin: 20px auto 30px auto;
@@ -35,6 +35,10 @@ nav {
 
 }
 
+.base-title {
+  text-align: center;
+}
+
 /* ここから home */
 .home-classroom, .home-teacher, .home-lesson, .home-access, .home-blog, .home-contact {
   text-align: center;
@@ -46,8 +50,7 @@ nav {
 }
 
 .introduction-text {
-  float: left;
-  padding: 15px 0px 15px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 .link-border {
@@ -64,22 +67,40 @@ nav {
 .classroom-contents {
   margin-bottom: 60px;
   text-align: center;
+  .classroom-body {
+    text-align: left;
+  }
 }
 
 .class-card {
   margin: 50px auto;
+  .top-card {
+    justify-content: space-around;
+  }
+  .under-card {
+    text-align: center;
+  }
 }
 
 .card {
   border-radius: 5px;
-  box-shadow: 0 2px 5px #ccc;
+  box-shadow: 0 2px 5px #bbb;
   text-align: center;
   margin: 0 1px 20px 0;
   padding: 0;
-}
+  .card1 {
+    background-color: #FFDBC9;
+  }
+  .card2 {
+    background-color: #FFD5EC;
+  }
+  .card3 {
+    background-color: #E6FFE9;
+  }
+  .card4 {
+    background-color: #D7EEFF;
+  }
 
-.card p {
-  font-size: 20px;
 }
 
 .card-title {
@@ -121,6 +142,9 @@ nav {
   height: auto;
   opacity: 1;
 }
+.student-body {
+  align-content: center;
+}
 
 .voice {
   padding: 0.5em 1em;
@@ -137,10 +161,21 @@ nav {
   width: 40px;
 }
 
+.room-image-avi {
+  height: 400px;
+  width: 400px;
+}
+
+.room-body-about {
+  margin: auto;
+  p {
+    margin: 30px;
+  }
+}
 /*ここまで classroom */
 
 /*ここから teacher */
-.teacher-image {
+.teacher-image, .lesson-content-image {
   width: 70vw;
   height: 60vw;
   margin-bottom: 50px;
@@ -172,11 +207,15 @@ nav {
 
 /*ここから access */
 .access-image {
-
+  text-align: center;
 }
 
 .access-body {
-  text-align: center;
+  text-align: left;
+  padding-left: 40px;
+  .access-list {
+    margin: 10px 0;
+  }
 }
 
 .access-body-right p {

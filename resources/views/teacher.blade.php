@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layouts.base')
 
 @section('title', '講師紹介')
 
@@ -6,12 +6,12 @@
 <div class="container">
     <div class="row">
         <div class="teacher-title col-md-12">
-            <h3>講師紹介</h3>
+            <h1>講師紹介</h1>
         </div>
         <div class="teacher-contents col-md-12">
             <img src="{{ asset('image/teacher.jpg') }}" class="teacher-image">
             <div class="teacher-body">
-                <h4>生徒指導実績</h4>
+                <h2>生徒指導実績</h2>
                 <div class="row text-align-center">
                     <div class="teacher-body-left col-md-12">
                         <p>ヤマハコンクールYRF 努力賞受賞</p>

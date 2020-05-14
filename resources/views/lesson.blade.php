@@ -1,4 +1,4 @@
-@extends('layout.base')
+@extends('layouts.base')
 
 @section('title', 'レッスン案内')
 
@@ -6,7 +6,7 @@
 <div class="container">
     <div class="row">
         <div class="lesson-title col-md-12">
-            <h3>レッスン案内</h3>
+            <h1>レッスン案内</h1>
         </div>
         <div class="lesson-contents col-md-12">
             <div class="lesson-content-image">
@@ -14,7 +14,7 @@
             </div>
             <div class="lesson-content col-md-12">
                 <div class="lesson-headline">
-                    <h4>その１　得意なところを伸ばします</h4>
+                    <h2>その１　得意なところを伸ばします</h2>
                 </div>
                 <div class="lesson-content-body col-md-12">
                     <p>ピアノは弾けるようになるだけでは、本当に弾けるようになったとは言えません。</p>
@@ -33,7 +33,7 @@
                     <p>伴奏に選ばれると、学校の皆から喜ばれて益々上達していきます。</p>
                 </div>
                 <div class="lesson-headline">
-                    <h4>その２　「分からない」ことが「分かる」に変わり、楽しくなります</h4>
+                    <h2>その２　「分からない」ことが「分かる」に変わり、楽しくなります</h2>
                 </div>
                 <div class="lesson-content-body">
                     <p>ピアノの習い始めは誰もが弾けなくて当たり前です。</p>
@@ -47,7 +47,7 @@
                     <p>レッスンをしていて「ピアノが楽しい」と言ってもらえることが本当に嬉しいことです。</p>
                 </div>
                 <div class="lesson-headline">
-                    <h4>その３　あきらめないで続ける力を育みます</h4>
+                    <h2>その３　あきらめないで続ける力を育みます</h2>
                 </div>
                 <div class="lesson-content-body">
                     <p>ピアノの練習には、毎日少しずつの練習が欠かせません。気分がのらない時は、誰にでもあります。</p>
@@ -66,7 +66,7 @@
         </div>
         <div class="lesson-contents col-md-12">
             <div class="lesson-guide-title">
-                <h4>幼児の方へ</h4>
+                <h2>幼児の方へ</h2>
             </div>
             <div class="lesson-guide-body">
                 <p>幼児の方のレッスンについては、レッスンを始めるにあたって不安がいっぱいあるかと思いますが</p>
@@ -82,7 +82,7 @@
                 <p>幼児の方から発表会に出演できます。</p>
             </div>
             <div class="lesson-guide-title">
-                <h4>小学生の方へ</h4>
+                <h2>小学生の方へ</h2>
             </div>
             <div class="lesson-guide-body">
                 <p>小学生になりますと、指の発達もしっかりしてきて、テクニックを身につける最適な時期となります。</p>
@@ -96,7 +96,7 @@
                 <p>他教室からの変更も 受け付けておりますので、お問い合わせ下さい。</p>
             </div>
             <div class="lesson-guide-title">
-                <h4>中学生の方へ</h4>
+                <h2>中学生の方へ</h2>
             </div>
             <div class="lesson-guide-body">
                 <p>中学生になってピアノを続けられている方は、本当にピアノが好きな方です。</p>
@@ -113,7 +113,7 @@
                 <p>今後もピアノが、ずっと心の支えであり　ピアノを通して心が豊かであって欲しいと心から、そう願っています。</p>
             </div>
             <div class="lesson-guide-title">
-                <h4>高校生の方へ</h4>
+                <h2>高校生の方へ</h2>
             </div>
             <div class="lesson-guide-body">
                 <p>高校生の方が、ピアノを習い始めるのは、保育士になりたい方が多いです。</p>
@@ -130,7 +130,7 @@
                 <p>夢へのお手伝いが出来ることを、心より幸せに思っています。</p>
             </div>
             <div class="lesson-guide-title">
-                <h4>保育士希望の方へ</h4>
+                <h2>保育士希望の方へ</h2>
             </div>
             <div class="lesson-guide-body">
                 <p>私は、小さい子供が大好きで、ずっと保育士になることに憧れていました。</p>
@@ -163,7 +163,7 @@
                 <p>一緒に頑張っていきましょう☆</p>
             </div>
             <div class="lesson-guide-title">
-                <h4>大人の方へ</h4>
+                <h2>大人の方へ</h2>
             </div>
             <div class="lesson-guide-body">
                 <p>大人の方が、ピアノを習われるのは、子供の頃習いたかったのに習えなかったから夢を叶えたいとの思いの方と</p>

@@ -22,8 +22,8 @@
     <body>
         <header>
             <div class="header container row align-items-center mb-5 mt-5 col-md-12 mx-auto">
-                <div class="top-title col-md-12">
-                    <h1>林本ピアノ教室</h1>
+                <div class="top-title col-md-12 text-align-center">
+                    @include('parts/home-title')
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,11 +51,11 @@
                 <div class="footer-title col-md-12">
                     <h2>林本ピアノ教室</h2>
                 </div>
-                <nav class="navbar navbar-expand-md navbar-light col-md-12">
+                <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-around col-md-12" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item-home"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
                             <li class="nav-item-home"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>

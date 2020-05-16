@@ -5,7 +5,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <h1 class="site-title col-md-12">教室案内</h1>
+        <h1 class="site-title col-md-4">教室案内</h1>
         <div class="classroom-information col-md-12">
             <p>愛知県江南市　すいとぴあ江南から　徒歩１分弱の場所にあるピアノ教室です。</p>
             <p>愛知県と岐阜県の県境にありますので、岐阜県各務原市からも近い教室です。</p>

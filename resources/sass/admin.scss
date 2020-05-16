@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
-.container {
-
+body {
+  background-image: url('image/b093.jpg');
 }
 
 h1, h2, h3, {
   font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
   margin: 20px auto 30px auto;
+}
+
+h2 {
+  position: relative;
+  padding: 0.25em 0;
+}
+h2:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: -webkit-linear-gradient(to right, rgb(255, 186, 115), #ffb2b2);
+  background: linear-gradient(to right, rgb(255, 186, 115), #efefef);
 }
 
 p {
@@ -19,9 +31,12 @@ footer {
   margin: 80px 0 60px 0;
 }
 
-.footer-title {
+.footer-title, .base-title, .top-title {
   text-align: center;
   margin: 10px auto 20px auto;
+  .base-title {
+    font-size: 20px;
+  }
 }
 
 .introduction, .classroom-information, .fee-about, .class-card-about, .philosophy-body, .teacher-contents {
@@ -31,6 +46,10 @@ footer {
 
 nav {
   text-align: center;
+  .navbar-nav li:hover {
+    transition-duration: 0.6s;
+    background-color: #FFE4E1;
+  }
   .nav-item {
     margin: 0 40px;
   }
@@ -39,9 +58,44 @@ nav {
   }
 }
 
-.base-title {
+.site-title {
+  display: inline-block;
+  position: relative;
+  height: 50px;/*リボンの高さ*/
+  line-height: 50px;/*リボンの高さ*/
   text-align: center;
+  padding: 0 30px;/*横の大きさ*/
+  font-size: 30px;/*文字の大きさ*/
+  background: #f57a78;/*塗りつぶし色*/
+  color: #FFF;/*文字色*/
+  box-sizing: border-box;
 }
+
+.site-title:before, .site-title:after {
+  position: absolute;
+  content: '';
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+}
+
+.site-title:before {
+  top: 0;
+  left: 0;
+  border-width: 25px 0px 25px 15px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+}
+
+.site-title:after {
+  top: 0;
+  right: 0;
+  border-width: 25px 15px 25px 0px;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+}
+
+
 
 /* ここから home */
 .home-classroom, .home-teacher, .home-lesson, .home-access, .home-blog, .home-contact {
@@ -120,12 +174,13 @@ nav {
 .hidden_box label {
   padding: 15px;
   font-weight: bold;
-  border: solid 2px black;
+  border: solid 2px #FFD5EC;
   cursor :pointer;
+  width: 350px;
 }
 
 .hidden_box label:hover {
-  background: #efefef;
+  background: #FFBEDA;
 }
 
 .hidden_box input {
@@ -138,7 +193,7 @@ nav {
   overflow: hidden;
   opacity: 0;
   transition: 0.8s;
-  background-color: #ffddff;
+  background-color: #FFD5EC;
 }
 
 .hidden_box input:checked ~ .hidden_show {

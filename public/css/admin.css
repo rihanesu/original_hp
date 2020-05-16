@@ -1,11 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);@charset "UTF-8";
 
+body {
+  background-image: url(/images/b093.jpg?f1a7c2e97ec1fe8bc653965b70c0f64d);
+}
+
 h1,
 h2,
 h3 {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
   margin: 20px auto 30px auto;
+}
+
+h2 {
+  position: relative;
+  padding: 0.25em 0;
+}
+
+h2:after {
+  content: "";
+  display: block;
+  height: 4px;
+  background: linear-gradient(to right, #ffba73, #efefef);
 }
 
 p {
@@ -17,9 +33,17 @@ footer {
   margin: 80px 0 60px 0;
 }
 
-.footer-title {
+.footer-title,
+.base-title,
+.top-title {
   text-align: center;
   margin: 10px auto 20px auto;
+}
+
+.footer-title .base-title,
+.base-title .base-title,
+.top-title .base-title {
+  font-size: 20px;
 }
 
 .introduction,
@@ -36,6 +60,11 @@ nav {
   text-align: center;
 }
 
+nav .navbar-nav li:hover {
+  transition-duration: 0.6s;
+  background-color: #FFE4E1;
+}
+
 nav .nav-item {
   margin: 0 40px;
 }
@@ -44,8 +73,48 @@ nav .nav-item-home {
   margin: 0 37px;
 }
 
-.base-title {
+.site-title {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  /*リボンの高さ*/
+  line-height: 50px;
+  /*リボンの高さ*/
   text-align: center;
+  padding: 0 30px;
+  /*横の大きさ*/
+  font-size: 30px;
+  /*文字の大きさ*/
+  background: #f57a78;
+  /*塗りつぶし色*/
+  color: #FFF;
+  /*文字色*/
+  box-sizing: border-box;
+}
+
+.site-title:before,
+.site-title:after {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 0px;
+  z-index: 1;
+}
+
+.site-title:before {
+  top: 0;
+  left: 0;
+  border-width: 25px 0px 25px 15px;
+  border-color: transparent transparent transparent #fff;
+  border-style: solid;
+}
+
+.site-title:after {
+  top: 0;
+  right: 0;
+  border-width: 25px 15px 25px 0px;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
 }
 
 /* ここから home */
@@ -138,12 +207,13 @@ nav .nav-item-home {
 .hidden_box label {
   padding: 15px;
   font-weight: bold;
-  border: solid 2px black;
+  border: solid 2px #FFD5EC;
   cursor: pointer;
+  width: 350px;
 }
 
 .hidden_box label:hover {
-  background: #efefef;
+  background: #FFBEDA;
 }
 
 .hidden_box input {
@@ -156,7 +226,7 @@ nav .nav-item-home {
   overflow: hidden;
   opacity: 0;
   transition: 0.8s;
-  background-color: #ffddff;
+  background-color: #FFD5EC;
 }
 
 .hidden_box input:checked ~ .hidden_show {

@@ -48,7 +48,7 @@
             </div>
             <div class="home-teacher col-md-12 mb-5">
                 <div class="row mb-5">
-                    <img class="col-md-6" src="{{ asset('image/IMG_9668.JPG') }}">
+                    <img class="col-md-6" src="{{ asset('image/teacher-home.jpg') }}">
                     <div class="col-md-6">
                         <h2>講師紹介</h2>
                         <ul class="introduction-body">
@@ -86,10 +86,11 @@
                         <h2>アクセス</h2>
                     </div>
                     <div class="home-access-body">
-                        <p></p>
+                        <p>当教室のアクセスです</p>
+                        <p>すいとぴあ江南から徒歩１分弱の教室です</p>
                     </div>
                     <div class="home-link">
-                        <a href="" class="link-border">MORE</a>
+                        <a href="{{ asset('access') }}" class="link-border">MORE</a>
                     </div>
                 </div>
                 <div class="home-blog col-md-4">
@@ -109,7 +110,8 @@
                         <h2>お問い合わせ</h2>
                     </div>
                     <div class="home-contact-body">
-                        <p></p>
+                        <p>お問い合わせはこちらからどうぞ</p>
+                        <p>外部サイトとなります</p>
                     </div>
                     <div class="home-link">
                         <a href="{{ asset('https://ssl.form-mailer.jp/fms/e39725dd489193') }}" class="link-border">MORE</a>

@@ -23,7 +23,7 @@
         <header>
             <div class="header container row align-items-center mb-5 mt-5 col-md-12 mx-auto">
                 <div class="top-title col-md-12">
-                    <p class="base-title">林本ピアノ教室</p>
+                    @include('parts/base-title')
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

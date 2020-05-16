@@ -5,9 +5,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="lesson-title col-md-12">
-            <h1>レッスン案内</h1>
-        </div>
+        <h1 class="site-title col-md-4">レッスン案内</h1>
         <div class="lesson-contents col-md-12">
             <div class="lesson-content-image">
                 <img src="{{ asset('image/lesson.jpg') }}">

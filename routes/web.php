@@ -26,6 +26,3 @@ Route::get('lesson' ,function() {
 Route::get('access', function() {
     return view('access');
 });
-Route::get('contact',function() {
-    return view('contact');
-});

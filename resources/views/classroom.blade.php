@@ -12,21 +12,49 @@
             <p>丹羽郡扶桑町、大口町、犬山市、一宮市からも</p>
             <p>近くて通いやすい場所にある教室です。</p>
         </div>
-        <div class="classroom-contents row col-md-12 mx-auto text-align-center">
-            <p class="classroom-headline col-md-6">レッスン案内</p>
-            <p class="classroom-body col-md-5">幼児から大人の方の個人レッスン<br>保育士希望の方・現在幼稚園教諭、現役の保育士の方</p>
-            <p class="classroom-headline col-md-6">レッスン日時</p>
-            <p class="classroom-body col-md-5">月曜日〜土曜日　８：００　〜　２０：３０　<br>（日曜日/祝日は定休日）</p>
-            <p class="classroom-headline col-md-6">レッスン時間</p>
-            <p class="classroom-body col-md-5">３０分</p>
-            <p class="classroom-headline col-md-6">レッスン回数</p>
-            <p class="classroom-body col-md-5">年間４１回　（発表会含む）</p>
-            <p class="classroom-headline col-md-6">発表会</p>
-            <p class="classroom-body col-md-5">毎年　江南市民文化会館　小ホールにて開催</p>
-            <p class="classroom-headline col-md-6">教室設備</p>
-            <p class="classroom-body col-md-5">自宅敷地内別棟の防音室（待合室完備）で抜群の落ち着いた環境でのレッスン<br>レッスン室の隣、待合室にて電子ピアノで練習が出来ます</p>
-            <p class="classroom-headline col-md-6">駐車場</p>
-            <p class="classroom-body col-md-5">４台完備</p>
+        <div class="classroom-contents row col-md-12 text-align-center">
+            <div class="col-md-10 row mx-auto">
+                <p class="classroom-headline col-md-4">レッスン案内</p>
+                <div class="col-md-8">
+                    <p class="classroom-body col-md-6 mx-auto">幼児から大人の方の個人レッスン<br>保育士希望の方・現在幼稚園教諭 <br />現役の保育士の方</p>
+                </div>
+            </div>
+            <div class="col-md-10 row mx-auto">
+                <p class="classroom-headline col-md-4">レッスン日時</p>
+                <div class="col-md-8">
+                    <p class="classroom-body col-md-6 mx-auto">月曜日〜土曜日　８：００〜２０：３０（日曜日/祝日は定休日）</p>
+                </div>
+            </div>
+            <div class="col-md-10 row mx-auto">
+                <p class="classroom-headline col-md-4">レッスン時間</p>
+                <div class="col-md-8">
+                    <p class="classroom-body col-md-6 mx-auto">３０分（日曜日/祝日は定休日）</p>
+                </div>
+            </div>
+            <div class="col-md-10 row mx-auto">
+                <p class="classroom-headline col-md-4">レッスン回数</p>
+                <div class="col-md-8">
+                    <p class="classroom-body col-md-6 mx-auto">年間４１回　（発表会含む）</p>
+                </div>
+            </div>
+            <div class="col-md-10 row mx-auto">
+                <p class="classroom-headline col-md-4">発表会</p>
+                <div class="col-md-8">
+                    <p class="classroom-body col-md-6 mx-auto">毎年　江南市民文化会館　小ホールにて開催</p>
+                </div>
+            </div>
+            <div class="col-md-10 row mx-auto">
+                <p class="classroom-headline col-md-4">教室設備</p>
+                <div class="col-md-8">
+                    <p class="classroom-body col-md-6 mx-auto">自宅敷地内別棟の防音室（待合室完備）で抜群の落ち着いた環境でのレッスン<br>レッスン室の隣、待合室にて電子ピアノで練習が出来ます</p>
+                </div>
+            </div>
+            <div class="col-md-10 row mx-auto">
+                <p class="classroom-headline col-md-4">駐車場</p>
+                <div class="col-md-8">
+                    <p class="classroom-body col-md-6 mx-auto">４台完備</p>
+                </div>
+            </div>
         </div>
         <div class="fee col-md-12">
             <div class="fee-title">
@@ -37,21 +65,18 @@
                 <p>（母子家庭の方は免除させて頂きます）</p>
             </div>
             <div class="class-card col-md-10">
-                <div class="top-card row">
+                <div class="top-card row col-md-12">
                     <section class="card col-md-3">
                         <div class="card-content card1">
                             <div class="card-title">
                                 <h4>導入　/　初級</h4>
                             </div>
-                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12">
+                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
                             <div class="card-body">
+                                <h5>料金</h5>
                                 <p>月額　　６０００円</p>
                                 <p>月１回　３０００円</p>
-                                <p>*初級コースは月１回のみです</p>
-                            </div>
-                            <div class="card-under">
-                                <p>説明入れます</p>
-                                <p>説明入れます</p>
+                                <p>*初級コースは月１回です</p>
                             </div>
                         </div>
                     </section>
@@ -60,15 +85,12 @@
                             <div class="card-title">
                                 <h4>中級</h4>
                             </div>
-                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12">
+                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
                             <div class="card-body">
+                                <h5>料金</h5>
                                 <p>月額　　７０００円</p>
                                 <p>月１回　３０００円</p>
                                 <p>月２回　５０００円</p>
-                            </div>
-                            <div class="card-under">
-                                <p>説明入れます</p>
-                                <p>説明入れます</p>
                             </div>
                         </div>
                     </section>
@@ -77,34 +99,28 @@
                             <div class="card-title">
                                 <h4>上級</h4>
                             </div>
-                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12">
+                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
                             <div class="card-body">
+                                <h5>料金</h5>
                                 <p>月額　　８０００円</p>
                                 <p>月１回　３０００円</p>
                                 <p>月２回　５０００円</p>
                             </div>
-                            <div class="card-under">
-                                <p>説明入れます</p>
-                                <p>説明入れます</p>
-                            </div>
                         </div>
                     </section>
                 </div>
-                <div class="under-card text-align-center col-md-12">
-                    <section class="card col-md-3">
+                <div class="under-card col-md-12">
+                    <section class="card col-md-3 mx-auto">
                         <div class="card-content card4">
                             <div class="card-title">
                                 <h4>保育士コース</h4>
                             </div>
-                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12">
+                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
                             <div class="card-body">
+                                <h5>料金</h5>
                                 <p>月額　　７０００円</p>
                                 <p>月１回　３０００円</p>
                                 <p>月２回　５０００円</p>
-                            </div>
-                            <div class="card-under">
-                                <p>説明入れます</p>
-                                <p>説明入れます</p>
                             </div>
                         </div>
                     </section>
@@ -351,12 +367,12 @@
                 <div class="row">
                     <img src="{{ asset('image/room1.jpg') }}" class="room-image-avi col-md-4">
                     <div class="room-body-about col-md-8">
-                        <p>教室のレッスン室には、ヤマハのアビテックスという防音室があります。</p>
-                        <p>アビテックスは、優れた音性能をもつ独自の３層構造のパネルを用いていて</p>
+                        <p>教室のレッスン室にはヤマハのアビテックスという防音室があります。</p>
+                        <p>アビテックスは優れた音性能をもつ独自の３層構造のパネルを用いていて</p>
                         <p>総合的な防音処理で部屋全体の遮音効果を発揮しています。</p>
                         <p>このアビテックスがあるので早朝や深夜のレッスンも可能となります。</p>
                         <p>このアビテックスの部屋の壁には、厚さ３cmの調音パネルが３ヵ所取り付けてあります。</p>
-                        <p>この調音パネルは、音が響きすぎる場合は「吸音」して聴き取りにくいときは「散乱」を適度に行い</p>
+                        <p>この調音パネルは、音が響きすぎる場合は「吸音」して、聴き取りにくいときは「散乱」を適度に行い</p>
                         <p>耳に優しいバランスの良い音にしてくれます。</p>
                     </div>
                 </div>
@@ -365,18 +381,18 @@
                     <img src="{{ asset('image/room2.jpg')}}" class="room-image-avi col-md-4">
                     <div class="room-body-about col-md-8">
                         <p>レッスン室ではカワイのRX-G1のグランドピアノを使用します。</p>
-                        <p>このグランドピアノは、小型ながら豊かな低音が特徴でグランドならではの</p>
+                        <p>このグランドピアノは小型ながら豊かな低音が特徴でグランドならではの</p>
                         <p>ダイナミックな響きを存分に感じるピアノです。</p>
-                        <p>弾きやすいタッチが特徴でカワイピアノならではのやわらかな優しい音色が特徴です。</p>
-                        <p>生徒の皆さんは、ピアノの音色が優しい音色でとても弾きやすいと言われます。</p>
+                        <p>弾きやすいタッチが特徴でカワイピアノならではのやわらかな優しい音色です。</p>
+                        <p>生徒の皆さんは、ピアノの音色が優しくとても弾きやすいと言われます。</p>
                     </div>
                 </div>
                 <h3>待合室の電子ピアノ</h3>
                 <div class="row">
                     <img src="{{ asset('image/room3.jpg')}}" class="room-image-avi col-md-4">
                     <div class="room-body-about col-md-8">
-                        <p>待合室にはカシオCELVIANO　グランドハイブリットGP-500があります。</p>
-                        <p>この電子ピアノはカシオとC.ベヒシュタインの共同開発により誕生したピアノです。</p>
+                        <p>待合室にはカシオCELVIANOグランドハイブリットGP-500があります。</p>
+                        <p>この電子ピアノは、カシオとC.ベヒシュタインの共同開発により誕生したピアノです。</p>
                         <p>電子ピアノながらハンマーを使い、限りなくグランドピアノのタッチに近づくよう</p>
                         <p>つくられているため、まるでピアノを弾いているかのようなタッチです。</p>
                         <p>レッスンの前のウォーミングアップとしてこの電子ピアノで練習される方が多く、大活躍です。</p>

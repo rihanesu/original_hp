@@ -22,6 +22,10 @@ h2:after {
   background: linear-gradient(to right, rgb(255, 186, 115), #efefef);
 }
 
+h5 {
+  font-weight: bold;
+}
+
 p {
   font-size: 14px;
   margin: 10px 0;
@@ -51,10 +55,12 @@ nav {
     background-color: #FFE4E1;
   }
   .nav-item {
-    margin: 0 40px;
+    margin: 0 21px;
+    width: 120px;
   }
   .nav-item-home {
-    margin: 0 37px;
+    margin: 0 21px;
+    width: 120px;
   }
 }
 
@@ -125,18 +131,23 @@ nav {
 .classroom-contents {
   margin-bottom: 60px;
   text-align: center;
+  .classroom-headline{
+    font-weight: bold;
+  }
   .classroom-body {
-    text-align: left;
+    text-align: center;
   }
 }
 
 .class-card {
   margin: 50px auto;
   .top-card {
-    justify-content: space-around;
-  }
-  .under-card {
     text-align: center;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .card-image {
+    padding: 0 5px;
   }
 }
 
@@ -193,7 +204,6 @@ nav {
   overflow: hidden;
   opacity: 0;
   transition: 0.8s;
-  background-color: #FFD5EC;
 }
 
 .hidden_box input:checked ~ .hidden_show {
@@ -207,7 +217,7 @@ nav {
 
 .voice {
   padding: 0.5em 1em;
-  margin: 2em 0;
+  margin: 2em auto;
   border: double 5px #4ec4d3;
 }
 .voice p {
@@ -260,8 +270,8 @@ nav {
 
 .lesson-content-body, .lesson-guide-body, {
   text-align: left;
+  margin: auto;
 }
-
 /*ここまで lesson */
 
 /*ここから access */
@@ -298,6 +308,8 @@ nav {
   transform: none;
   border-radius: 0;
 }
+
+//homeのスライダーCSS
 .slick-prev{//スライダー矢印
   left: -10px;
   background: url(image/left-arrow-w.svg) center no-repeat rgba(255,255,255,0.6);

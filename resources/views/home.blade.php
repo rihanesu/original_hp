@@ -54,7 +54,9 @@
             </div>
             <div class="home-teacher col-md-12 mb-5">
                 <div class="row mb-5">
-                    <img class="col-md-6" src="{{ asset('image/teacher-home.jpg') }}">
+                    <div class="col-md-6">
+                        <img src="{{ asset('image/teacher-home.jpg') }}">
+                    </div>
                     <div class="col-md-6">
                         <div class="headline col-md-6">
                             <h2>講師紹介</h2>

@@ -15,7 +15,9 @@
         <div class="col-md-12">
             <div class="introduction col-md-12 mb-5">
                 <div class="row">
-                    <img class="col-md-6" src="{{ asset('image/IMG_9668.JPG') }}">
+                    <div class="introduction-image col-md-6">
+                        <img src="{{ asset('image/IMG_9668.JPG') }}">
+                    </div>
                     <div class="col-md-6">
                         <div class="headline col-md-6">
                             <h2>Introduction</h2>

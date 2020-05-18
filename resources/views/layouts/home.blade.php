@@ -22,7 +22,7 @@
     <body>
         <header>
             <div class="header container row align-items-center mb-5 mt-5 col-md-12 mx-auto">
-                <div class="top-title col-md-12 text-align-center">
+                <div class="site-title col-md-12 text-align-center">
                     @include('parts/home-title')
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
@@ -48,7 +48,7 @@
         </main>
         <footer>
             <div class="footer container row align-items-center col-md-12 mx-auto">
-                <div class="footer-title col-md-12">
+                <div class="footer-title col-md-4">
                     <h2>林本ピアノ教室</h2>
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">

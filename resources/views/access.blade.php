@@ -5,7 +5,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <h1 class="site-title col-md-4">アクセス</h1>
+        <h1 class="page-title col-md-4">アクセス</h1>
         <div class="col-md-12 row">
             <div class="access-image col-md-6 text-align-center">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.3822901750323!2d136.87854841525038!3d35.37097328026781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDIyJzE1LjUiTiAxMzbCsDUyJzUwLjciRQ!5e0!3m2!1sja!2sjp!4v1588464040704!5m2!1sja!2sjp" width="370vw" height="250vw" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>

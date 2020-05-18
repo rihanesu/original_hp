@@ -5,7 +5,7 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <h1 class="site-title col-md-4">教室案内</h1>
+        <h1 class="page-title col-md-4">教室案内</h1>
         <div class="classroom-information col-md-12">
             <p>愛知県江南市　すいとぴあ江南から　徒歩１分弱の場所にあるピアノ教室です。</p>
             <p>愛知県と岐阜県の県境にありますので、岐阜県各務原市からも近い教室です。</p>
@@ -57,7 +57,7 @@
             </div>
         </div>
         <div class="fee col-md-12">
-            <div class="fee-title">
+            <div class="headline col-md-4">
                 <h2>料金</h2>
             </div>
             <div class="fee-about col-md-12">
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="question col-md-12">
-            <div class="question-title">
+            <div class="headline col-md-4">
                 <h2>よくある質問</h2>
             </div>
             <div class="question-body">
@@ -225,7 +225,7 @@
             </div>
         </div>
         <div class="philosophy col-md-12 text-align-center">
-            <div class="philosophy-title">
+            <div class="headline col-md-4">
                 <h2>教室理念</h2>
             </div>
             <div class="philosophy-body col-md-10">
@@ -292,7 +292,7 @@
             </div>
         </div>
         <div class="student col-md-12">
-            <div class="student-title">
+            <div class="headline col-md-4">
                 <h2>生徒の声</h2>
             </div>
             <div class="student-body col-md-12">
@@ -359,7 +359,7 @@
             </div>
         </div>
         <div class="room col-md-12">
-            <div class="room-title">
+            <div class="headline col-md-4">
                 <h2>教室設備</h2>
             </div>
             <div class="room-body">

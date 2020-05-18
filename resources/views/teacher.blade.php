@@ -5,11 +5,13 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <h1 class="site-title col-md-4">講師紹介</h1>
+        <h1 class="page-title col-md-4">講師紹介</h1>
         <div class="teacher-contents col-md-12">
             <img src="{{ asset('image/teacher.jpg') }}" class="teacher-image">
             <div class="teacher-body">
-                <h2>生徒指導実績</h2>
+                <div class="headline col-md-4">
+                    <h2>生徒指導実績</h2>
+                </div>
                 <div class="row text-align-center">
                     <div class="teacher-body-left col-md-12">
                         <p>ヤマハコンクールYRF 努力賞受賞</p>

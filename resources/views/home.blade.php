@@ -17,7 +17,9 @@
                 <div class="row">
                     <img class="col-md-6" src="{{ asset('image/IMG_9668.JPG') }}">
                     <div class="col-md-6">
-                        <h2>Introduction</h2>
+                        <div class="headline col-md-6">
+                            <h2>Introduction</h2>
+                        </div>
                         <ul class="introduction-body">
                             <li class="introduction-text col-md-12">やる気をひきだし驚くほど成長できるピアノ教室です</li>
                             <li class="introduction-text col-md-12">保育士希望の方は伴奏のコツを覚えて夢が叶います</li>
@@ -31,7 +33,9 @@
             <div class="home-classroom col-md-12 mb-5">
                 <div class="row mb-5">
                     <div class="col-md-6">
-                        <h2>教室案内</h2>
+                        <div class="headline col-md-6">
+                            <h2>教室案内</h2>
+                        </div>
                         <ul class="introduction-body">
                             <li class="introduction-text col-md-12">レッスン室ではカワイのRX-G1のグランドピアノ</li>
                             <li class="introduction-text col-md-12">カシオCELVIANOグランドハイブリットGP-500を</li>
@@ -50,7 +54,9 @@
                 <div class="row mb-5">
                     <img class="col-md-6" src="{{ asset('image/teacher-home.jpg') }}">
                     <div class="col-md-6">
-                        <h2>講師紹介</h2>
+                        <div class="headline col-md-6">
+                            <h2>講師紹介</h2>
+                        </div>
                         <ul class="introduction-body">
                             <li class="introduction-text col-md-12">林本　麦子</li>
                             <li class="introduction-text col-md-12">名古屋芸術大学卒業</li>
@@ -65,7 +71,9 @@
             <div class="home-classroom col-md-12 mb-5">
                 <div class="row mb-5">
                     <div class="col-md-6">
-                        <h2>レッスン案内</h2>
+                        <div class="headline col-md-6">
+                            <h2>レッスン案内</h2>
+                        </div>
                         <ul class="introduction-body">
                             <li class="introduction-text col-md-12">林本ピアノ教室の３つのお約束</li>
                             <li class="introduction-text col-md-12">１、得意なところを伸ばします</li>
@@ -82,7 +90,7 @@
             </div>
             <div class="row">
                 <div class="home-access col-md-4">
-                    <div class="home-headline">
+                    <div class="headline col-md-6">
                         <h2>アクセス</h2>
                     </div>
                     <div class="home-access-body">
@@ -94,7 +102,7 @@
                     </div>
                 </div>
                 <div class="home-blog col-md-4">
-                    <div class="home-headline">
+                    <div class="headline col-md-6">
                         <h2>ブログ</h2>
                     </div>
                     <div class="home-blog-body">
@@ -106,7 +114,7 @@
                     </div>
                 </div>
                 <div class="home-contact col-md-4">
-                    <div class="home-headline">
+                    <div class="headline col-md-8">
                         <h2>お問い合わせ</h2>
                     </div>
                     <div class="home-contact-body">

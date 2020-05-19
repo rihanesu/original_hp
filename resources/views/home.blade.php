@@ -47,7 +47,7 @@
                         </ul>
                     </div>
                     <div class="introduction-image col-md-6">
-                        <img src="{{ asset('image/IMG_9668.JPG') }}">
+                        <img src="{{ asset('image/class-home-image.jpg') }}">
                     </div>
                 </div>
                 <div class="home-link">

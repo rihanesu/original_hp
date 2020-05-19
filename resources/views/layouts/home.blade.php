@@ -30,7 +30,7 @@
                     @include('parts/home-title')
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#home-navbar" aria-controls="home-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#home-navbar" aria-controls="home-navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-around" id="home-navbar">
@@ -56,7 +56,7 @@
                     <h2>林本ピアノ教室</h2>
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">

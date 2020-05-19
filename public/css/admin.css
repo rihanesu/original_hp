@@ -9,19 +9,7 @@ h2,
 h3 {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
-  margin: 20px auto 30px auto;
-}
-
-h2 {
-  position: relative;
-  padding: 0.25em 0;
-}
-
-h2:after {
-  content: "";
-  display: block;
-  height: 4px;
-  background: linear-gradient(to right, #ffba73, #efefef);
+  margin: 20px auto;
 }
 
 h5 {
@@ -47,6 +35,10 @@ footer {
 .footer-title .base-title,
 .base-title .base-title,
 .top-title .base-title {
+  font-size: 20px;
+}
+
+.base-title {
   font-size: 20px;
 }
 
@@ -132,15 +124,24 @@ nav .nav-item-home {
 .home-blog,
 .home-contact {
   text-align: center;
-  margin: 30px auto;
+  margin-bottom: 60px;
 }
 
 .headline {
-  margin: 20px auto;
+  margin: -20px auto 20px auto;
+}
+
+.home-image {
+  width: 30vw;
+  height: 30vw;
 }
 
 .introduction-text {
-  padding: 20px 0px 20px 0px;
+  padding: 19px 0px;
+}
+
+.home-link {
+  margin-top: 30px;
 }
 
 .link-border {
@@ -148,7 +149,6 @@ nav .nav-item-home {
   padding: 5px 20px;
   border-top: 1px solid blue;
   border-bottom: 1px solid blue;
-  margin-top: 10px;
 }
 
 /*ここまで home */

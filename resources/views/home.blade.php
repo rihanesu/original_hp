@@ -16,7 +16,7 @@
             <div class="introduction col-md-12 mb-5">
                 <div class="row">
                     <div class="introduction-image col-md-6">
-                        <img src="{{ asset('image/IMG_9668.JPG') }}">
+                        <img src="{{ asset('image/intro-home-image.jpg') }}">
                     </div>
                     <div class="col-md-6">
                         <div class="headline col-md-6">
@@ -32,8 +32,8 @@
                     </div>
                 </div>
             </div>
-            <div class="home-classroom col-md-12 mb-5">
-                <div class="row mb-5">
+            <div class="home-classroom col-md-12">
+                <div class="row">
                     <div class="col-md-6">
                         <div class="headline col-md-6">
                             <h2>教室案内</h2>
@@ -50,12 +50,14 @@
                         <img src="{{ asset('image/IMG_9668.JPG') }}">
                     </div>
                 </div>
-                <a href="{{ asset('classroom') }}" class="link-border">MORE</a>
+                <div class="home-link">
+                    <a href="{{ asset('classroom') }}" class="link-border">MORE</a>
+                </div>
             </div>
-            <div class="home-teacher col-md-12 mb-5">
-                <div class="row mb-5">
+            <div class="home-teacher col-md-12">
+                <div class="row">
                     <div class="col-md-6">
-                        <img src="{{ asset('image/teacher-home.jpg') }}">
+                        <img src="{{ asset('image/teacher-home.jpg') }}" class="home-image">
                     </div>
                     <div class="col-md-6">
                         <div class="headline col-md-6">
@@ -70,10 +72,12 @@
                         </ul>
                     </div>
                 </div>
-                <a href="{{ asset('teacher') }}" class="link-border">MORE</a>
+                <div class="home-link">
+                    <a href="{{ asset('teacher') }}" class="link-border">MORE</a>
+                </div>
             </div>
-            <div class="home-classroom col-md-12 mb-5">
-                <div class="row mb-5">
+            <div class="home-classroom col-md-12">
+                <div class="row">
                     <div class="col-md-6">
                         <div class="headline col-md-6">
                             <h2>レッスン案内</h2>
@@ -87,10 +91,12 @@
                         </ul>
                     </div>
                     <div class="introduction-image col-md-6">
-                        <img src="{{ asset('image/IMG_9668.JPG') }}">
+                        <img src="{{ asset('image/lesson-home-image.jpg') }}">
                     </div>
                 </div>
-                <a href="{{ asset('lesson') }}" class="link-border">MORE</a>
+                <div class="home-link">
+                    <a href="{{ asset('lesson') }}" class="link-border">MORE</a>
+                </div>
             </div>
             <div class="row">
                 <div class="home-access col-md-4">

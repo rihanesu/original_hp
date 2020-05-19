@@ -7,19 +7,7 @@ body {
 h1, h2, h3, {
   font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
-  margin: 20px auto 30px auto;
-}
-
-h2 {
-  position: relative;
-  padding: 0.25em 0;
-}
-h2:after {
-  content: "";
-  display: block;
-  height: 4px;
-  background: -webkit-linear-gradient(to right, rgb(255, 186, 115), #ffb2b2);
-  background: linear-gradient(to right, rgb(255, 186, 115), #efefef);
+  margin: 20px auto;
 }
 
 h5 {
@@ -41,6 +29,10 @@ footer {
   .base-title {
     font-size: 20px;
   }
+}
+
+.base-title {
+  font-size: 20px;
 }
 
 .introduction, .classroom-information, .fee-about, .class-card-about, .philosophy-body, .teacher-contents {
@@ -106,15 +98,24 @@ nav {
 /* ここから home */
 .home-classroom, .home-teacher, .home-lesson, .home-access, .home-blog, .home-contact {
   text-align: center;
-  margin: 30px auto;
+  margin-bottom: 60px;
 }
 
 .headline {
-  margin: 20px auto;
+  margin: -20px auto 20px auto;
+}
+
+.home-image {
+  width: 30vw;
+  height: 30vw;
 }
 
 .introduction-text {
-  padding: 20px 0px 20px 0px;
+  padding: 19px 0px;
+}
+
+.home-link {
+  margin-top: 30px;
 }
 
 .link-border {
@@ -122,8 +123,8 @@ nav {
   padding: 5px 20px;
   border-top: 1px solid blue;
   border-bottom: 1px solid blue;
-  margin-top: 10px;
 }
+
 
 /*ここまで home */
 

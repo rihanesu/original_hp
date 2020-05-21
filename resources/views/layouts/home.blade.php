@@ -31,10 +31,10 @@
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
                     <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#home-navbar" aria-controls="home-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <p class="navbar-name">Menu</p>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-around" id="home-navbar">
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse col-md-12" id="home-navbar">
+                        <ul class="navbar-nav col-md-12 justify-content-around">
                             <li class="nav-item"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
@@ -56,18 +56,18 @@
                     <h2>林本ピアノ教室</h2>
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
-                    <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                    <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#home-navbar" aria-controls="home-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <p class="navbar-name">Menu</p>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
-                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
-                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
-                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('lesson') }}">レッスン案内</a></li>
-                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('access') }}">アクセス</a></li>
-                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('https://ameblo.jp/hayashimoto-piano/') }}">ブログ</a></li>
-                            <li class="nav-item-home"><a class="nav-link" href="{{ asset('https://ssl.form-mailer.jp/fms/e39725dd489193') }}">お問い合わせ</a></li>
+                    <div class="collapse navbar-collapse col-md-12" id="home-navbar">
+                        <ul class="navbar-nav col-md-12 justify-content-around">
+                            <li class="nav-item"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ asset('lesson') }}">レッスン案内</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ asset('access') }}">アクセス</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ asset('https://ameblo.jp/hayashimoto-piano/') }}">ブログ</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ asset('https://ssl.form-mailer.jp/fms/e39725dd489193') }}">お問い合わせ</a></li>
                         </ul>
                     </div>
                 </nav>

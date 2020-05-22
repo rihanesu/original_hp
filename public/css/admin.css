@@ -9,11 +9,14 @@ h2,
 h3 {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
-  margin: 20px auto;
 }
 
 h1 {
-  margin-bottom: 80px;
+  margin: 0 auto 80px auto;
+}
+
+h2 {
+  margin: 80px auto 50px auto;
 }
 
 h5 {
@@ -42,6 +45,10 @@ p {
 
   .br-sp {
     display: block;
+  }
+
+  h2 {
+    font-size: 20px;
   }
 }
 
@@ -100,12 +107,10 @@ nav .nav-item {
 }
 
 @media only screen and (max-device-width: 480px) {
-  .navbar-nav,
-  .nav-item {
-    width: 100%;
-    text-align: center;
-  }
+  /* 480px以下はモバイル用レイアウト*/
 
+  .navbar-nav,
+  .nav-item,
   .nav-link {
     width: 100%;
   }
@@ -353,6 +358,19 @@ nav .nav-item {
 .lesson-guide-body {
   text-align: left;
   margin: auto;
+  padding: 0;
+}
+
+.philosophy-body {
+  padding: 0;
+}
+
+.philosophy-body p {
+  margin: 5px 0;
+}
+
+.philosophy-body .philosophy-body-paragraph {
+  margin-bottom: 25px;
 }
 
 /*ここまで lesson */
@@ -368,6 +386,10 @@ nav .nav-item {
   text-align: left;
   margin-left: 20px;
   padding: 0;
+}
+
+.access-headline {
+  margin: 60px auto 40px auto;
 }
 
 .access-body-under {

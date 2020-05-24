@@ -7,48 +7,20 @@
     <div class="row">
         <h1 class="page-title col-md-4">レッスン案内</h1>
         <div class="classroom-information col-md-12">
-            <p>愛知県江南市　すいとぴあ江南から　徒歩１分弱の場所にあるピアノ教室です。</p>
-            <p>愛知県と岐阜県の県境にありますので、岐阜県各務原市からも近い教室です。</p>
-            <p>丹羽郡扶桑町、大口町、犬山市、一宮市からも</p>
+            <p>愛知県江南市すいとぴあ江南から、<br class="br-sp" />徒歩１分弱の場所にあるピアノ教室です。</p>
+            <p>愛知県と岐阜県の県境にありますので、<br class="br-sp" />岐阜県各務原市からも近い教室です。</p>
+            <p>丹羽郡扶桑町、大口町、犬山市、一宮市<br class="br-sp" />などからも</p>
             <p>近くて通いやすい場所にある教室です。</p>
         </div>
-        <div class="classroom-contents row col-md-12 text-align-center">
-            <div class="col-md-10 row mx-auto">
-                <p class="classroom-headline col-md-4">レッスン案内</p>
-                <div class="col-md-8">
-                    <p class="classroom-body col-md-6 mx-auto">幼児から大人の方の個人レッスン<br>保育士希望の方・現在幼稚園教諭 <br />現役の保育士の方</p>
-                </div>
-            </div>
-            <div class="col-md-10 row mx-auto">
-                <p class="classroom-headline col-md-4">レッスン日時</p>
-                <div class="col-md-8">
-                    <p class="classroom-body col-md-6 mx-auto">月曜日〜土曜日　８：００〜２０：３０（日曜日/祝日は定休日）</p>
-                </div>
-            </div>
-            <div class="col-md-10 row mx-auto">
-                <p class="classroom-headline col-md-4">レッスン時間</p>
-                <div class="col-md-8">
-                    <p class="classroom-body col-md-6 mx-auto">３０分（日曜日/祝日は定休日）</p>
-                </div>
-            </div>
-            <div class="col-md-10 row mx-auto">
-                <p class="classroom-headline col-md-4">レッスン回数</p>
-                <div class="col-md-8">
-                    <p class="classroom-body col-md-6 mx-auto">年間４１回　（発表会含む）</p>
-                </div>
-            </div>
-            <div class="col-md-10 row mx-auto">
-                <p class="classroom-headline col-md-4">発表会</p>
-                <div class="col-md-8">
-                    <p class="classroom-body col-md-6 mx-auto">毎年　江南市民文化会館　小ホールにて開催</p>
-                </div>
-            </div>
-            <div class="col-md-10 row mx-auto">
-                <p class="classroom-headline col-md-4">教室設備</p>
-                <div class="col-md-8">
-                    <p class="classroom-body col-md-6 mx-auto">自宅敷地内別棟の防音室（待合室完備）で抜群の落ち着いた環境でのレッスン<br>レッスン室の隣、待合室にて電子ピアノで練習が出来ます</p>
-                </div>
-            </div>
+        <div class="col-md-12">
+            <dl class="col-md-6 mx-auto">
+                <dt>レッスン案内</dt><dd>幼児から大人の方の個人レッスン　<br>保育士希望の方<br class="br-sp" />現在幼稚園教諭・現役の保育士の方</dd>
+                <dt>レッスン日時</dt><dd>月曜日〜土曜日　８：００〜２０：３０<br class="br-sp" />（日曜日/祝日は定休日）</dd>
+                <dt>レッスン時間</dt><dd>３０分（日曜日/祝日は定休日）</dd>
+                <dt>レッスン回数</dt><dd>年間４１回　（発表会含む）</dd>
+                <dt>発表会</dt><dd>毎年、江南市民文化会館小ホールにて<br class="br-sp" />開催</dd>
+                <dt>教室設備</dt><dd>自宅敷地内別棟の防音室（待合室完備）<br class="br-sp" />で抜群の落ち着いた環境でのレッスン<br>レッスン室の隣、待合室にて電子ピアノ<br class="br-sp" />で練習が出来ます</dd>
+            </dl>
         </div>
         <div class="fee col-md-12">
             <div class="headline col-md-4">
@@ -58,9 +30,9 @@
                 <p>入会金　　　３０００円</p>
                 <p>（母子家庭の方は免除させて頂きます）</p>
             </div>
-            <div class="class-card col-md-10">
+            <div class="class-card col-md-12">
                 <div class="top-card row col-md-12">
-                    <section class="card col-md-3">
+                    <div class="card" style="width: 15rem;">
                         <div class="card-content card1">
                             <div class="card-title">
                                 <h4>導入　/　初級</h4>
@@ -73,8 +45,8 @@
                                 <p>*初級コースは月１回です</p>
                             </div>
                         </div>
-                    </section>
-                    <section class="card col-md-3">
+                    </div>
+                    <div class="card" style="width: 15rem;">
                         <div class="card-content card2">
                             <div class="card-title">
                                 <h4>中級</h4>
@@ -87,8 +59,8 @@
                                 <p>月２回　５０００円</p>
                             </div>
                         </div>
-                    </section>
-                    <section class="card col-md-3">
+                    </div>
+                    <div class="card" style="width: 15rem;">
                         <div class="card-content card3">
                             <div class="card-title">
                                 <h4>上級</h4>
@@ -101,10 +73,8 @@
                                 <p>月２回　５０００円</p>
                             </div>
                         </div>
-                    </section>
-                </div>
-                <div class="under-card col-md-12">
-                    <section class="card col-md-3 mx-auto">
+                    </div>
+                    <div class="card" style="width: 15rem;">
                         <div class="card-content card4">
                             <div class="card-title">
                                 <h4>保育士コース</h4>
@@ -117,12 +87,12 @@
                                 <p>月２回　５０００円</p>
                             </div>
                         </div>
-                    </section>
+                    </div>
                 </div>
             </div>
             <div class="class-card-about">
-                <p>大人の男性の方の入会は、ご遠慮させて頂いております。</p>
-                <p>保育士希望の高校生や大学生の男性の方は、入会が可能です。</p>
+                <p>大人の男性の方の入会は、ご遠慮させて<br class="br-sp" />頂いております。</p>
+                <p>保育士希望の高校生や大学生の男性の方は、<br class="br-sp" />入会が可能です。</p>
             </div>
         </div>
         <div class="question col-md-12">

@@ -11,9 +11,6 @@ h1, h2, h3, {
 h1 {
   margin: 0 auto 80px auto;
 }
-h2 {
-  margin: 80px auto 50px auto;
-}
 
 h5 {
   font-weight: bold;
@@ -31,11 +28,13 @@ p {
 @media screen and (max-width: 650px){
   .br-pc { display:none; }
   .br-sp { display:block; }
+  h1 {font-size: 33px;}
   h2 {font-size: 20px;}
+  .room-headline {font-size: 18px;}
 }
 
 footer {
-  margin: 60px 0;
+  margin: 120px 0;
 }
 
 .footer-title, .base-title, .top-title {
@@ -121,20 +120,26 @@ nav {
 /* ここから home */
 .home-classroom, .home-teacher, .home-lesson, .home-access, .home-blog, .home-contact {
   text-align: center;
-  margin-bottom: 60px;
+  .home-classroom, .home-teacher, .home-lesson {
+    margin-bottom: 100px;
+  }
+  .home-access, .home-blog, .home-contact {
+    margin-bottom: 80px;
+  }
 }
 
 .headline {
-  margin: -20px auto 20px auto;
+  margin: 100px auto 60px auto;
 }
 
 .home-image {
-  width: 30vw;
-  height: 30vw;
+  width: 260px;
+  height: 226px;
 }
 
 .introduction-text {
-  padding: 19px 0px;
+  margin: 20px 0;
+  padding: 0;
 }
 
 .home-link {
@@ -144,8 +149,8 @@ nav {
 .link-border {
   text-decoration: none;
   padding: 5px 20px;
-  border-top: 1px solid blue;
-  border-bottom: 1px solid blue;
+  border-top: 1px solid #3490dc;
+  border-bottom: 1px solid #3490dc;
 }
 
 
@@ -265,6 +270,10 @@ nav {
     margin: 30px;
   }
 }
+
+.room-headline {
+  margin: 60px 0 40px 0;
+}
 /*ここまで classroom */
 
 /*ここから teacher */
@@ -288,7 +297,7 @@ nav {
 }
 
 .lesson-headline, .lesson-guide-title {
-  margin: 40px 0 30px 0;
+  margin: 80px auto 50px auto;
   text-align: center;
 }
 

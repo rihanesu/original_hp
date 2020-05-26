@@ -9,7 +9,12 @@ h1, h2, h3, {
   text-align: center;
 }
 h1 {
-  margin: 0 auto 80px auto;
+  margin: 60px auto;
+}
+h1:after {
+  content: url(border1.png);
+  position: relative;
+  top: -10px;
 }
 
 h5 {
@@ -78,42 +83,6 @@ nav {
   }
 }
 
-.page-title {
-  display: inline-block;
-  position: relative;
-  height: 50px;/*リボンの高さ*/
-  line-height: 50px;/*リボンの高さ*/
-  text-align: center;
-  padding: 0 30px;/*横の大きさ*/
-  font-size: 30px;/*文字の大きさ*/
-  background: #f57a78;/*塗りつぶし色*/
-  color: #FFF;/*文字色*/
-  box-sizing: border-box;
-}
-
-.page-title:before, .page-title:after {
-  position: absolute;
-  content: '';
-  width: 0px;
-  height: 0px;
-  z-index: 1;
-}
-
-.page-title:before {
-  top: 0;
-  left: 0;
-  border-width: 25px 0px 25px 15px;
-  border-color: transparent transparent transparent #fff;
-  border-style: solid;
-}
-
-.page-title:after {
-  top: 0;
-  right: 0;
-  border-width: 25px 15px 25px 0px;
-  border-color: transparent #fff transparent transparent;
-  border-style: solid;
-}
 
 
 

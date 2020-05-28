@@ -1,24 +1,22 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+JP);@charset "UTF-8";
+@charset "UTF-8";
 
 body {
   background-image: url(/images/b093.jpg?f1a7c2e97ec1fe8bc653965b70c0f64d);
+  font-family: 游明朝, "Yu Mincho", YuMincho, "Hiragino Mincho ProN", "Hiragino Mincho Pro", HGS明朝E, メイリオ, Meiryo, serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Noto Sans JP", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 60px auto;
-}
-
-h1:after {
-  content: url(/images/border1.png?68ea11730c87289413d1c5fa91c4dc8d);
-  position: relative;
-  top: -10px;
+  letter-spacing: 2px;
+  background: url(/images/border1.png?68ea11730c87289413d1c5fa91c4dc8d) no-repeat center;
+  background-size: 300px;
+  padding-bottom: 60px;
 }
 
 h5 {
@@ -181,6 +179,9 @@ nav .nav-item {
 
 .headline {
   margin: 100px auto 60px auto;
+  background: url(/images/border1.png?68ea11730c87289413d1c5fa91c4dc8d) no-repeat center;
+  background-size: 300px;
+  padding-bottom: 60px;
 }
 
 .home-image {

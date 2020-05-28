@@ -1,20 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
 
 body {
   background-image: url('image/b093.jpg');
+  font-family: 游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN","Hiragino Mincho Pro",HGS明朝E,メイリオ,Meiryo,serif;
 }
 
 h1, h2, h3, {
-  font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
 }
 h1 {
   margin: 60px auto;
-}
-h1:after {
-  content: url(border1.png);
-  position: relative;
-  top: -10px;
+  letter-spacing: 2px;
+  background: url('image/border1.png') no-repeat center;
+  background-size: 300px;
+  padding-bottom: 60px;
 }
 
 h5 {
@@ -84,8 +82,6 @@ nav {
 }
 
 
-
-
 /* ここから home */
 .home-classroom, .home-teacher, .home-lesson, .home-access, .home-blog, .home-contact {
   text-align: center;
@@ -99,6 +95,9 @@ nav {
 
 .headline {
   margin: 100px auto 60px auto;
+  background: url('image/border1.png') no-repeat center;
+  background-size: 300px;
+  padding-bottom: 60px;
 }
 
 .home-image {
@@ -121,9 +120,8 @@ nav {
   border-top: 1px solid #3490dc;
   border-bottom: 1px solid #3490dc;
 }
-
-
 /*ここまで home */
+
 
 /*ここから classroom */
 .classroom-contents {

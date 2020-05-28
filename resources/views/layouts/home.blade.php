@@ -25,7 +25,7 @@
     </head>
     <body>
         <header>
-            <div class="header container row align-items-center mb-5 mt-5 col-md-12 mx-auto">
+            <div class="header container row align-items-center mb-5 col-md-12 mx-auto">
                 <div class="site-title col-md-12 text-align-center">
                     @include('parts/home-title')
                 </div>

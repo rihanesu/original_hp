@@ -25,7 +25,7 @@
     </head>
     <body>
         <header>
-            <div class="header container row align-items-center mb-5 mt-5 col-md-12 mx-auto">
+            <div class="header container row align-items-center mt-5 col-md-12 mx-auto">
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
                     <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#home-navbar" aria-controls="home-navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <p class="navbar-name">Menu</p>

@@ -27,7 +27,7 @@
         <header>
             <div class="header container row align-items-center mb-5 col-md-12 mx-auto">
                 <div class="site-title col-md-12 text-align-center">
-                    @include('parts/home-title')
+                    <h1 class="site-title col-md-4">林本ピアノ教室</h1>
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
                     <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#home-navbar" aria-controls="home-navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +51,7 @@
             @yield('content')
         </main>
         <footer>
-            <div class="footer container row align-items-center col-md-12 mx-auto">
+            <div class="footer-home container row align-items-center col-md-12 mx-auto">
                 <div class="footer-title col-md-4">
                     <h2>林本ピアノ教室</h2>
                 </div>

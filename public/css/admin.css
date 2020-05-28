@@ -9,14 +9,14 @@ h1,
 h2,
 h3 {
   text-align: center;
+  letter-spacing: 1px;
 }
 
 h1 {
-  margin: 60px auto;
-  letter-spacing: 2px;
+  margin: 60px auto 0 auto;
   background: url(/images/border1.png?68ea11730c87289413d1c5fa91c4dc8d) no-repeat center;
   background-size: 300px;
-  padding-bottom: 60px;
+  padding: 0 0 60px 0;
 }
 
 h5 {
@@ -60,28 +60,25 @@ p {
   }
 }
 
-footer {
-  margin: 120px 0;
+.footer-home {
+  margin: 20px 0 60px 0;
+}
+
+.footer-base {
+  margin: 100px 0 60px 0;
+}
+
+.site-title {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .footer-title,
-.base-title,
 .top-title {
   text-align: center;
   margin: 10px auto 20px auto;
 }
 
-.footer-title .base-title,
-.base-title .base-title,
-.top-title .base-title {
-  font-size: 20px;
-}
-
-.base-title {
-  font-size: 20px;
-}
-
-.introduction,
 .classroom-information,
 .fee-about,
 .class-card-about,
@@ -126,6 +123,7 @@ nav .nav-item {
 
 /* ここから home */
 
+.introduction,
 .home-classroom,
 .home-teacher,
 .home-lesson,
@@ -133,60 +131,19 @@ nav .nav-item {
 .home-blog,
 .home-contact {
   text-align: center;
-}
-
-.home-classroom .home-classroom,
-.home-classroom .home-teacher,
-.home-classroom .home-lesson,
-.home-teacher .home-classroom,
-.home-teacher .home-teacher,
-.home-teacher .home-lesson,
-.home-lesson .home-classroom,
-.home-lesson .home-teacher,
-.home-lesson .home-lesson,
-.home-access .home-classroom,
-.home-access .home-teacher,
-.home-access .home-lesson,
-.home-blog .home-classroom,
-.home-blog .home-teacher,
-.home-blog .home-lesson,
-.home-contact .home-classroom,
-.home-contact .home-teacher,
-.home-contact .home-lesson {
   margin-bottom: 100px;
 }
 
-.home-classroom .home-access,
-.home-classroom .home-blog,
-.home-classroom .home-contact,
-.home-teacher .home-access,
-.home-teacher .home-blog,
-.home-teacher .home-contact,
-.home-lesson .home-access,
-.home-lesson .home-blog,
-.home-lesson .home-contact,
-.home-access .home-access,
-.home-access .home-blog,
-.home-access .home-contact,
-.home-blog .home-access,
-.home-blog .home-blog,
-.home-blog .home-contact,
-.home-contact .home-access,
-.home-contact .home-blog,
-.home-contact .home-contact {
-  margin-bottom: 80px;
-}
-
 .headline {
-  margin: 100px auto 60px auto;
+  margin: auto;
   background: url(/images/border1.png?68ea11730c87289413d1c5fa91c4dc8d) no-repeat center;
   background-size: 300px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .home-image {
   width: 260px;
-  height: 226px;
+  height: auto;
 }
 
 .introduction-text {
@@ -302,6 +259,7 @@ nav .nav-item {
 
 .student-body {
   align-content: center;
+  margin-bottom: 80px;
 }
 
 .voice {
@@ -363,14 +321,14 @@ nav .nav-item {
 
 .lesson-headline,
 .lesson-guide-title {
-  margin: 80px auto 50px auto;
+  margin: 80px auto 30px auto;
   text-align: center;
 }
 
 .lesson-content-body,
 .lesson-guide-body {
   text-align: left;
-  margin: auto;
+  margin: 0 auto 80px auto;
   padding: 0;
 }
 
@@ -384,6 +342,11 @@ nav .nav-item {
 
 .philosophy-body .philosophy-body-paragraph {
   margin-bottom: 25px;
+}
+
+.lesson-info,
+.fee {
+  margin: 0 auto 100px auto;
 }
 
 /*ここまで lesson */
@@ -406,7 +369,7 @@ nav .nav-item {
 }
 
 .access-body-under {
-  text-align: left;
+  text-align: center;
   margin: auto;
 }
 

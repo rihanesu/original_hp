@@ -48,7 +48,7 @@
             @yield('content')
         </main>
         <footer>
-            <div class="footer container row align-items-center col-md-12 mx-auto">
+            <div class="footer-base container row align-items-center col-md-12 mx-auto">
                 <div class="footer-title col-md-4">
                     <h2>林本ピアノ教室</h2>
                 </div>

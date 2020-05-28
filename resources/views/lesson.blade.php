@@ -13,7 +13,7 @@
             <p>近くて通いやすい場所にある教室です。</p>
         </div>
         <div class="col-md-12">
-            <dl class="col-md-6 mx-auto">
+            <dl class="col-md-6 lesson-info">
                 <dt>レッスン案内</dt><dd>幼児から大人の方の個人レッスン　<br>保育士希望の方<br class="br-sp" />現在幼稚園教諭・現役の保育士の方</dd>
                 <dt>レッスン日時</dt><dd>月曜日〜土曜日　８：００〜２０：３０<br class="br-sp" />（日曜日/祝日は定休日）</dd>
                 <dt>レッスン時間</dt><dd>３０分（日曜日/祝日は定休日）</dd>
@@ -39,10 +39,9 @@
                             </div>
                             <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
                             <div class="card-body">
-                                <h5>料金</h5>
                                 <p>月額　　６０００円</p>
                                 <p>月１回　３０００円</p>
-                                <p>*初級コースは月１回です</p>
+                                <p>※初級コースは月１回です</p>
                             </div>
                         </div>
                     </div>
@@ -53,7 +52,6 @@
                             </div>
                             <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
                             <div class="card-body">
-                                <h5>料金</h5>
                                 <p>月額　　７０００円</p>
                                 <p>月１回　３０００円</p>
                                 <p>月２回　５０００円</p>
@@ -67,7 +65,6 @@
                             </div>
                             <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
                             <div class="card-body">
-                                <h5>料金</h5>
                                 <p>月額　　８０００円</p>
                                 <p>月１回　３０００円</p>
                                 <p>月２回　５０００円</p>
@@ -81,7 +78,6 @@
                             </div>
                             <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
                             <div class="card-body">
-                                <h5>料金</h5>
                                 <p>月額　　７０００円</p>
                                 <p>月１回　３０００円</p>
                                 <p>月２回　５０００円</p>

@@ -31,7 +31,7 @@
                     <p>伴奏に選ばれると、学校の皆から喜ばれて益々上達していきます。</p>
                 </div>
                 <div class="lesson-headline">
-                    <h2>その２　<br class="br-sp" />「分からない」ことが<br class="br-sp" />「分かる」に変わり、楽しくなります</h2>
+                    <h2>その２　<br class="br-sp" />「分からない」ことが<br class="br-sp" />「分かる」に変わり、<br class="br-sp" />楽しくなります</h2>
                 </div>
                 <div class="lesson-content-body col-md-6">
                     <p>ピアノの習い始めは誰もが弾けなくて<br class="br-sp" />当たり前です。</p>
@@ -355,8 +355,4 @@
         </div>
     </div>
 </div>
-
-
-
-
 @endsection

@@ -7,18 +7,18 @@
     <div class="row">
         <div class="col-md-12">
             <ul class="top-slider col-md-12 mb-5">
-                <li class="top-slider-item"><img src="{{ asset('image/1-15-01.JPG') }}"></li>
-                <li class="top-slider-item"><img src="{{ asset('image/2-06HP.JPG') }}"></li>
-                <li class="top-slider-item"><img src="{{ asset('image/1-01.JPG') }}"></li>
-                <li class="top-slider-item"><img src="{{ asset('image/2-01.JPG') }}"></li>
-                <li class="top-slider-item"><img src="{{ asset('image/2-03.JPG') }}"></li>
-                <li class="top-slider-item"><img src="{{ asset('image/IMG_9657.JPG') }}"></li>
-                <li class="top-slider-item"><img src="{{ asset('image/IMG_9659.JPG') }}"></li>
-                <li class="top-slider-item"><img src="{{ asset('image/IMG_9668.JPG') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/1-15-01.jpeg') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/2-06HP.jpeg') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/1-01.jpeg') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/1-06re01.jpeg') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/2-03.jpeg') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/IMG_9657.jpeg') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/IMG_9659.jpeg') }}"></li>
+                <li class="top-slider-item"><img src="{{ asset('image/IMG_9668.jpeg') }}"></li>
             </ul>
         </div>
         <div class="col-md-12">
-            <div class="introduction col-md-12">
+            <div class="introduction col-md-12 mt-5">
                 <div class="headline col-md-6">
                     <h2>Introduction</h2>
                 </div>

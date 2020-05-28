@@ -6,13 +6,13 @@ body {
 
 h1, h2, h3, {
   text-align: center;
+  letter-spacing: 1px;
 }
 h1 {
-  margin: 60px auto;
-  letter-spacing: 2px;
+  margin: 60px auto 0 auto;
   background: url('image/border1.png') no-repeat center;
   background-size: 300px;
-  padding-bottom: 60px;
+  padding: 0 0 60px 0;
 }
 
 h5 {
@@ -36,23 +36,24 @@ p {
   .room-headline {font-size: 18px;}
 }
 
-footer {
-  margin: 120px 0;
+.footer-home {
+  margin: 20px 0 60px 0;
+}
+.footer-base {
+  margin: 100px 0 60px 0;
 }
 
-.footer-title, .base-title, .top-title {
+.site-title {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.footer-title, .top-title {
   text-align: center;
   margin: 10px auto 20px auto;
-  .base-title {
-    font-size: 20px;
-  }
 }
 
-.base-title {
-  font-size: 20px;
-}
-
-.introduction, .classroom-information, .fee-about, .class-card-about, .philosophy-body, .teacher-contents {
+.classroom-information, .fee-about, .class-card-about, .philosophy-body, .teacher-contents {
   text-align: center;
   margin: 10px auto 50px auto;
 }
@@ -83,26 +84,21 @@ nav {
 
 
 /* ここから home */
-.home-classroom, .home-teacher, .home-lesson, .home-access, .home-blog, .home-contact {
+.introduction, .home-classroom, .home-teacher, .home-lesson, .home-access, .home-blog, .home-contact {
   text-align: center;
-  .home-classroom, .home-teacher, .home-lesson {
-    margin-bottom: 100px;
-  }
-  .home-access, .home-blog, .home-contact {
-    margin-bottom: 80px;
-  }
+  margin-bottom: 100px;
 }
 
 .headline {
-  margin: 100px auto 60px auto;
+  margin: auto;
   background: url('image/border1.png') no-repeat center;
   background-size: 300px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 
 .home-image {
   width: 260px;
-  height: 226px;
+  height: auto;
 }
 
 .introduction-text {
@@ -209,6 +205,7 @@ nav {
 }
 .student-body {
   align-content: center;
+  margin-bottom: 80px;
 }
 
 .voice {
@@ -264,13 +261,13 @@ nav {
 }
 
 .lesson-headline, .lesson-guide-title {
-  margin: 80px auto 50px auto;
+  margin: 80px auto 30px auto;
   text-align: center;
 }
 
 .lesson-content-body, .lesson-guide-body, {
   text-align: left;
-  margin: auto;
+  margin: 0 auto 80px auto;
   padding: 0;
 }
 
@@ -282,6 +279,11 @@ nav {
   .philosophy-body-paragraph {
     margin-bottom: 25px;
   }
+}
+
+.lesson-info, .fee {
+  margin: 0 auto 100px auto;
+
 }
 /*ここまで lesson */
 
@@ -302,7 +304,7 @@ nav {
 }
 
 .access-body-under {
-  text-align: left;
+  text-align: center;
   margin: auto;
 }
 

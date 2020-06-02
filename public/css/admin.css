@@ -13,10 +13,7 @@ h3 {
 }
 
 h1 {
-  margin: 60px auto 0 auto;
-  background: url(/images/border1.png?68ea11730c87289413d1c5fa91c4dc8d) no-repeat center;
-  background-size: 300px;
-  padding: 0 0 60px 0;
+  margin: 60px auto 20px auto;
 }
 
 h5 {
@@ -71,6 +68,17 @@ p {
 .site-title {
   padding-left: 0;
   padding-right: 0;
+  background: url(/images/f0987_1.png?03e1b288019b01e0acb49cc54b78f607) no-repeat center;
+  background-size: 275px;
+  padding: 80px 0;
+}
+
+.page-title {
+  padding-left: 0;
+  padding-right: 0;
+  background: url(/images/f1117_1.png?26fbed6e9964c62f2b3b3819a0636e5b) no-repeat center;
+  background-size: 270px;
+  padding: 80px 0;
 }
 
 .footer-title,
@@ -206,15 +214,15 @@ nav .nav-item {
 }
 
 .card .card2 {
-  background-color: #FFD5EC;
+  background-color: #FFE4C4;
 }
 
 .card .card3 {
-  background-color: #E6FFE9;
+  background-color: #FFDEAD;
 }
 
 .card .card4 {
-  background-color: #D7EEFF;
+  background-color: #FFDAB9;
 }
 
 .card-title {

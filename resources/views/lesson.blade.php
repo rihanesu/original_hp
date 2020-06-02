@@ -37,7 +37,7 @@
                             <div class="card-title">
                                 <h4>導入　/　初級</h4>
                             </div>
-                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
+                            <img src="{{ asset('image/card1.jpg') }}" class="col-md-12 card-image">
                             <div class="card-body">
                                 <p>月額　　６０００円</p>
                                 <p>月１回　３０００円</p>
@@ -76,7 +76,7 @@
                             <div class="card-title">
                                 <h4>保育士コース</h4>
                             </div>
-                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
+                            <img src="{{ asset('image/card4.jpg') }}" class="col-md-12 card-image">
                             <div class="card-body">
                                 <p>月額　　７０００円</p>
                                 <p>月１回　３０００円</p>

@@ -26,14 +26,14 @@
     <body>
         <header>
             <div class="header container row align-items-center mb-5 col-md-12 mx-auto">
-                <div class="site-title col-md-12 text-align-center">
+                <div class="col-md-12 text-align-center">
                     <h1 class="site-title col-md-4">林本ピアノ教室</h1>
                 </div>
                 <nav class="navbar navbar-expand-md navbar-light col-md-12 mx-auto">
-                    <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#home-navbar" aria-controls="home-navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler col-md-12" type="button" data-toggle="collapse" data-target="#home-navbar1" aria-controls="home-navbar" aria-expanded="false" aria-label="Toggle navigation">
                         <p class="navbar-name">Menu</p>
                     </button>
-                    <div class="collapse navbar-collapse col-md-12" id="home-navbar">
+                    <div class="collapse navbar-collapse col-md-12" id="home-navbar1">
                         <ul class="navbar-nav col-md-12 justify-content-around">
                             <li class="nav-item"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>

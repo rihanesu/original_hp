@@ -37,7 +37,7 @@
                             <div class="card-title">
                                 <h4>導入　/　初級</h4>
                             </div>
-                            <img src="{{ asset('image/card1.jpg') }}" class="col-md-12 card-image">
+                            <img src="{{ asset('image/card0.jpg') }}" class="col-md-12 card-image">
                             <div class="card-body">
                                 <p>月額　　６０００円</p>
                                 <p>月１回　３０００円</p>
@@ -50,7 +50,7 @@
                             <div class="card-title">
                                 <h4>中級</h4>
                             </div>
-                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
+                            <img src="{{ asset('image/card1.jpg') }}" class="col-md-12 card-image">
                             <div class="card-body">
                                 <p>月額　　７０００円</p>
                                 <p>月１回　３０００円</p>
@@ -63,7 +63,7 @@
                             <div class="card-title">
                                 <h4>上級</h4>
                             </div>
-                            <img src="{{ asset('image/IMG_9657.JPG') }}" class="col-md-12 card-image">
+                            <img src="{{ asset('image/card3.jpg') }}" class="col-md-12 card-image">
                             <div class="card-body">
                                 <p>月額　　８０００円</p>
                                 <p>月１回　３０００円</p>

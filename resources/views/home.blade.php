@@ -87,7 +87,7 @@
                 </div>
                 <div class="row">
                     <div class="introduction-image col-md-4 offset-md-1 order-md-1">
-                        <img src="{{ asset('image/lesson-home-image.jpg') }}">
+                        <img src="{{ asset('image/home-lesson.jpeg') }}">
                     </div>
                     <div class="col-md-6">
                         <div class="introduction-body">

@@ -6,73 +6,80 @@
 <div class="container">
     <div class="row">
         <h1 class="page-title col-md-4">教室案内</h1>
-        <div class="lesson-contents col-md-12">
+        <div class="lesson-contents col-md-12 mb-5">
             <div class="lesson-content-image">
                 <img src="{{ asset('image/lesson.jpg') }}">
             </div>
             <div class="col-md-12">
-                <div class="lesson-headline">
-                    <h2>その１　<br class="br-sp" />得意なところを伸ばします</h2>
+                <div class="mb-5">
+                    <div class="lesson-headline">
+                        <h2>その１　<br class="br-sp" />得意なところを伸ばします</h2>
+                    </div>
+                    <div class="lesson-content-body col-md-6">
+                        <p>ピアノはただ弾いているだけでは、<br class="br-sp" />弾けるようになったとは言えません。</p>
+                        <p>いかに音楽的に表現できるように<br class="br-sp" />なったかが大切なことです。</p>
+                        <p>林本麦子ピアノ教室では、自分から<br class="br-sp" />練習がしたくなるレッスンをします。</p>
+                        <p>わからないことは恥ずかしいことでは<br class="br-sp" />ありません。</p>
+                        <p>自分ではどうにもならないことが、<br class="br-sp" />ちょっとしたコツをつかむと驚くほど<br class="br-sp" />進み弾けるようになります。</p>
+                        <p>それにはレッスンが楽しいものでなくてはなりません。</p>
+                        <p>30分のレッスンを時間配分して、<br class="br-sp" />ピアノを弾く以外にもリズム打ちや<br class="br-sp" /><br class="br-pc">音読みなどのソルフェージュを組み込み</p>
+                        <p>学校や幼稚園で習っているような季節の歌も歌います。<br />ピアノを弾くのが苦手な子も歌が驚くほど上手だったり</p>
+                        <p>リズム打ちが天才的だったり一人一人の得意な所を見つけ伸ばします。</p>
+                        <p>その得意な所を伸ばすレッスンをしていると、ある日ピアノもどんどん<br class="br-pc">弾ける<br class="br-sp" />ようになり、弾くことが苦手ではなく<br class="br-sp" />なります。</p>
+                        <p>自信がついたということでしょう。</p>
+                        <p>その後弾けることの自信が、ありと<br class="br-sp" />あらゆるところに働きかけ、発表会で難しい曲が弾けたり</p>
+                        <p>学校の伴奏に選ばれて上手に弾けるようになったりします。</p>
+                        <p>伴奏に選ばれると、学校の皆から喜ばれて益々上達していきます。</p>
+                    </div>
+                    <div class="lesson-headline">
+                        <h2>その２　<br class="br-sp" />「分からない」ことが<br class="br-sp" />「分かる」に変わり、<br class="br-sp" />楽しくなります</h2>
+                    </div>
+                    <div class="lesson-content-body col-md-6">
+                        <p>ピアノの習い始めは誰もが弾けなくて<br class="br-sp" />当たり前です。</p>
+                        <p>始めても少しずつしか進みません。</p>
+                        <p>ピアノを始めたからといって、いきなり難しい曲は弾けません。</p>
+                        <p>分からないことも多く、思っていたことと違うこともあるでしょう。</p>
+                        <p>しかし少しずつ練習をしていると<br class="br-sp" />「分からない」こと「分かる」に変わり</p>
+                        <p>それがもっと「知りたい」になり<br class="br-sp" />「もっと上手に弾きたい」に変わり<br class="br-sp" /><br class="br-pc">半年も経つと驚くほど上達します。</p>
+                        <p>一人一人の個性もありますので、<br class="br-sp" />どんどん進む方、じっくりと一曲一曲<br class="br-sp" /><br class="br-pc">丁寧に向き合いたい方など様々ですが</p>
+                        <p>「分からない」ことが「分かる」に<br class="br-sp" />変わった時の皆さんの上達には目を<br class="br-sp" /><br class="br-pc">見張るものもあります。</p>
+                        <p>レッスンをしていて「ピアノが楽しい」と言ってもらえることが<br class="br-pc">本当に嬉しい<br class="br-sp" />です。</p>
+                    </div>
+                    <div class="lesson-headline">
+                        <h2>その３　<br class="br-sp" />あきらめないで続ける力を<br class="br-sp" />育みます</h2>
+                    </div>
+                    <div class="lesson-content-body col-md-6">
+                        <p>ピアノの練習には、毎日少しずつの<br class="br-sp" />練習が欠かせません。</p>
+                        <p>気分がのらない時は誰にでもあります。</p>
+                        <p>今のお子様を見ていますと、出来ないと<br class="br-sp" />すぐに諦めてしまいます。</p>
+                        <p>しかし私は諦めません。</p>
+                        <p>どこが出来なくて、どこでつまずいて<br class="br-sp" />いるのか瞬時に見極めて判断します。</p>
+                        <p>多方面からアプローチをすると、また<br class="br-sp" />驚くように弾けるようになります。</p>
+                        <p>どんなお子様でも無限の可能性が<br class="br-sp" />あります。</p>
+                        <p>出来ないということは出来る可能性が<br class="br-sp" />あるということです。</p>
+                        <p>未来があるということです。</p>
+                        <p>それはとても明るい未来です。</p>
+                        <p>最後まで諦めないで、明るい未来に<br class="br-sp" />向かって一緒に歩いていきましょう。</p>
+                        <p>一緒に頑張っていきましょう。</p>
+                    </div>
                 </div>
-                <div class="lesson-content-body col-md-6">
-                    <p>ピアノはただ弾いているだけでは、<br class="br-sp" />弾けるようになったとは言えません。</p>
-                    <p>いかに音楽的に表現できるように<br class="br-sp" />なったかが大切なことです。</p>
-                    <p>林本麦子ピアノ教室では、自分から<br class="br-sp" />練習がしたくなるレッスンをします。</p>
-                    <p>わからないことは恥ずかしいことでは<br class="br-sp" />ありません。</p>
-                    <p>自分ではどうにもならないことが、<br class="br-sp" />ちょっとしたコツをつかむと驚くほど<br class="br-sp" />進み弾けるようになります。</p>
-                    <p>それにはレッスンが楽しいものでなくてはなりません。</p>
-                    <p>30分のレッスンを時間配分して、<br class="br-sp" />ピアノを弾く以外にもリズム打ちや<br class="br-sp" />音読みなどの<br class="br-pc">ソルフェージュを組み込み</p>
-                    <p>学校や幼稚園で習っているような季節の歌も歌います。ピアノを弾くのが苦手な子も歌が驚くほど上手だったり</p>
-                    <p>リズム打ちが天才的だったり一人一人の得意な所を見つけ伸ばします。</p>
-                    <p>その得意な所を伸ばすレッスンをしていると、ある日ピアノもどんどん<br class="br-pc">弾ける<br class="br-sp" />ようになり、弾くことが苦手ではなく<br class="br-sp" />なります。</p>
-                    <p>自信がついたということでしょう。</p>
-                    <p>その後弾けることの自信が、ありと<br class="br-sp" />あらゆるところに働きかけ、発表会で難しい曲が弾けたり</p>
-                    <p>学校の伴奏に選ばれて上手に弾けるようになったりします。</p>
-                    <p>伴奏に選ばれると、学校の皆から喜ばれて益々上達していきます。</p>
-                </div>
-                <div class="lesson-headline">
-                    <h2>その２　<br class="br-sp" />「分からない」ことが<br class="br-sp" />「分かる」に変わり、<br class="br-sp" />楽しくなります</h2>
-                </div>
-                <div class="lesson-content-body col-md-6">
-                    <p>ピアノの習い始めは誰もが弾けなくて<br class="br-sp" />当たり前です。</p>
-                    <p>始めても少しずつしか進みません。</p>
-                    <p>ピアノを始めたからといって、いきなり難しい曲は弾けません。</p>
-                    <p>分からないことも多く、思っていたことと違うということもあるでしょう。</p>
-                    <p>しかし少しずつ練習をしていると<br class="br-sp" />「分からない」こと「分かる」に変わり</p>
-                    <p>それがもっと「知りたい」になり<br class="br-sp" />「もっと上手に弾きたい」に変わり<br class="br-sp" />半年も経つと<br class="br-pc">驚くほど上達します。</p>
-                    <p>一人一人の個性もありますので、<br class="br-sp" />どんどん進む方、じっくりと一曲一曲<br class="br-sp" />丁寧に<br class="br-pc">向き合いたい方など様々ですが</p>
-                    <p>「分からない」ことが「分かる」に<br class="br-sp" />変わった時の皆さんの上達には目を<br class="br-sp" />見張るものも<br class="br-pc">あります。</p>
-                    <p>レッスンをしていて「ピアノが楽しい」と言ってもらえることが本当に嬉しい<br class="br-sp" />こと<br class="br-pc">です。</p>
-                </div>
-                <div class="lesson-headline">
-                    <h2>その３　<br class="br-sp" />あきらめないで続ける力を<br class="br-sp" />育みます</h2>
-                </div>
-                <div class="lesson-content-body col-md-6">
-                    <p>ピアノの練習には、毎日少しずつの<br class="br-sp" />練習が欠かせません。</p>
-                    <p>気分がのらない時は誰にでもあります。</p>
-                    <p>今のお子様を見ていますと、出来ないと<br class="br-sp" />すぐに諦めてしまいます。</p>
-                    <p>しかし私は諦めません。</p>
-                    <p>どこが出来なくて、どこでつまずいて<br class="br-sp" />いるのかを瞬時に見極めて判断します。</p>
-                    <p>多方面からアプローチをすると、また<br class="br-sp" />驚くように弾けるようになります。</p>
-                    <p>どんなお子様でも無限の可能性が<br class="br-sp" />あります。</p>
-                    <p>出来ないということは出来る可能性が<br class="br-sp" />あるということです。</p>
-                    <p>未来があるということです。</p>
-                    <p>それはとても明るい未来です。</p>
-                    <p>最後まで諦めないで、明るい未来に<br class="br-sp" />向かって一緒に歩いていきましょう。</p>
-                    <p>一緒に頑張っていきましょう。</p>
+                <div id="card-id">
+                    <div class="headline">
+                        <h2>レッスン希望の方へ</h2>
+                    </div>
                 </div>
                 <div class="lesson-headline">
                     <h2>幼児の方へ</h2>
                 </div>
                 <div class="lesson-content-body col-md-6">
-                    <p>幼児の方のレッスンについては、<br class="br-sp" />レッスンを始めるにあたって不安が<br class="br-sp" />いっぱいある<br class="br-pc">かと思いますが</p>
+                    <p>幼児の方のレッスンについては、<br class="br-sp" />レッスンを始めるにあたって不安が<br class="br-sp" /><br class="br-pc">いっぱいあるかと思いますが</p>
                     <p>幼児の方は、まだ何でもすぐに出来るというわけではありません。</p>
                     <p>少しずつの積み重ねが、大切な時期<br class="br-sp" />です。</p>
-                    <p>お母様が、少しだけ家での練習を応援<br class="br-sp" />して頂いたり褒めて頂くことで驚くほど<br>上達していきます。</p>
+                    <p>お母様が、少しだけ家での練習を応援<br class="br-sp" />して頂いたり褒めて頂くことで<br class="br-pc">驚くほど<br class="br-sp">上達していきます。</p>
                     <p>不安があるとは思いますが、ちょっと<br class="br-sp" />した家での言葉掛けの方法や練習のコツ<br class="br-sp" />などを教えますので、安心して始められ<br class="br-sp" />ます。</p>
                     <p>長い目で見て、ピアノを好きになって<br class="br-sp" />頂く時期ですので焦らないで</p>
                     <p>思いっきり、音楽を楽しんで欲しいと<br class="br-sp" />思っています。</p>
-                    <p>幼児の方はピアノだけでなく、歌を<br class="br-sp" />歌ったりリズム打ちをしたり音を<br class="br-sp" />読んだりと</p>
+                    <p>幼児の方はピアノだけでなく、歌を<br class="br-sp" />歌ったりリズム打ちをしたり音を<br class="br-sp" /><br class="br-pc">読んだりと</p>
                     <p>リトミックも取り入れての、レッスンと<br class="br-sp" />なります。</p>
                     <p>小さな指で弾くピアノは、本当に感動<br class="br-sp" />します。</p>
                     <p>幼児の方から発表会に出演できます。</p>
@@ -81,9 +88,9 @@
                     <h2>小学生の方へ</h2>
                 </div>
                 <div class="lesson-content-body col-md-6">
-                    <p>小学生になりますと、指の発達も<br class="br-sp" />しっかりしてきてテクニックを<br class="br-sp" />身につけるのに<br class="br-pc">最適な時期となります。</p>
+                    <p>小学生になりますと、指の発達も<br class="br-sp" />しっかりしてきてテクニックを<br class="br-sp" />身につけるのに最適な時期となります。</p>
                     <p>ピアノの発表会をきっかけに上達される<br class="br-sp" />お子様が大変多いです。</p>
-                    <p>それ以外にも、学校の伴奏や学習発表会<br class="br-sp" />の伴奏、２分の１成人式の伴奏や<br class="br-sp" />卒業式の<br class="br-pc">伴奏などが自信につながり</p>
+                    <p>それ以外にも、学校の伴奏や学習発表会<br class="br-sp" />の伴奏、２分の１成人式の伴奏や<br class="br-sp" /><br class="br-pc">卒業式の伴奏などが自信につながり</p>
                     <p>上達が目覚ましいものになります。</p>
                     <p>音楽理論やリズム打ち、ピアノの音を<br class="br-sp" />聴いてノートに音を書く聴音など</p>
                     <p>ピアノ以外にも、このような<br class="br-sp" />ソルフェージュを勉強することで<br class="br-sp" />ピアノ演奏が<br class="br-pc">さらに素敵になります。</p>
@@ -100,27 +107,27 @@
                     <p>部活に勉強に忙しくても、ピアノが<br class="br-sp" />息抜きになったり励みになったりして</p>
                     <p>ピアノがなくてはならないものになって<br class="br-sp" />いるようです。</p>
                     <p>合唱コンクールの文化会館大ホールでの<br class="br-sp" />伴奏が、何より一番の目標として<br>頑張っている方が多いです。</p>
-                    <p>学校の卒業式や卒業生を送る会での<br class="br-sp" />ピアノ伴奏は、代表に選ばれることで<br class="br-sp" />自信に<br class="br-pc">つながり</p>
+                    <p>学校の卒業式や卒業生を送る会での<br class="br-sp" />ピアノ伴奏は、代表に選ばれることで<br class="br-sp" /><br class="br-pc">自信につながり</p>
                     <p>さらなる演奏に磨きをかけ　素晴らしい<br class="br-sp" />演奏をされます。</p>
-                    <p>ピアノの発表会でも、幻想即興曲や<br class="br-sp" />革命のエチュードなどの名曲が弾ける<br class="br-sp" />ようになり</p>
+                    <p>ピアノの発表会でも、幻想即興曲や<br class="br-sp" />革命のエチュードなどの名曲が<br class="br-pc">弾ける<br class="br-sp" />ようになり</p>
                     <p>勉強・部活と忙しい中、ピアノと真剣に<br class="br-sp" />向き合っています。</p>
-                    <p>年少からピアノを始めたお子様が、<br class="br-sp" />今中学生になり、合唱コンクールや<br class="br-sp" />卒業式での<br class="br-pc">ピアノ伴奏に大活躍されるのを見て</p>
+                    <p>年少からピアノを始めたお子様が、<br class="br-sp" />今中学生になり、合唱コンクールや<br class="br-sp" /><br class="br-pc">卒業式でのピアノ伴奏に大活躍されるのを見て</p>
                     <p>本当に嬉しく思っています。</p>
-                    <p>今後もピアノがずっと心の支えであり、<br class="br-sp" />ピアノを通して心が豊かであって欲しい<br class="br-sp" />と<br class="br-pc">心から、そう願っています。</p>
+                    <p>今後もピアノがずっと心の支えであり、<br class="br-sp" />ピアノを通して心が豊かであって<br class="br-pc">欲しい<br class="br-sp" />と心から、そう願っています。</p>
                 </div>
                 <div class="lesson-headline">
                     <h2>高校生の方へ</h2>
                 </div>
                 <div class="lesson-content-body col-md-6">
                     <p>高校生の方がピアノを習い始めるのは、<br class="br-sp" />保育士になりたい方が多いです。</p>
-                    <p>夢に向かって、目をキラキラさせて入会<br class="br-sp" />される、高校生の方のレッスンはとても<br>楽しいものです。</p>
+                    <p>夢に向かって、目をキラキラさせて入会<br class="br-sp" />される、高校生の方のレッスンは<br class="br-pc">とても<br class="br-sp">楽しいものです。</p>
                     <p>少しでもピアノが弾けるようになって、<br class="br-sp" />保育士として頑張りたい。<br>そんな気持ちが伝わってきます。</p>
                     <p>高校生から、保育士希望ではなく、<br class="br-sp" />レッスンで始める方も見えます。</p>
-                    <p>今まで習いたかったのに、忙しくて<br class="br-sp" />習えなかったのでものすごい勢いで<br class="br-sp" />練習を<br class="br-pc">してきます。</p>
+                    <p>今まで習いたかったのに、忙しくて<br class="br-sp" />習えなかったのでものすごい勢いで<br class="br-sp" /><br class="br-pc">練習をしてきます。</p>
                     <p>保育士の大学での進学で、ピアノの<br class="br-sp" />レッスンもあります。</p>
-                    <p>進度によって、クラス分けをされる<br class="br-sp" />ところが多いので、少しでもピアノが<br class="br-sp" />弾けるように<br class="br-pc">なるのを目標として<br class="br-sp" />います。</p>
+                    <p>進度によって、クラス分けをされる<br class="br-sp" />ところが多いので、少しでもピアノが<br class="br-sp" /><br class="br-pc">弾けるようになるのを目標として<br class="br-sp" />います。</p>
                     <p>効率よくレッスンをして、どんどん<br class="br-sp" />進めていきたいです。</p>
-                    <p>レッスンも忙しい高校生の方に無理なく<br class="br-sp" />月２回レッスンも可能ですので安心して<br>始められます。</p>
+                    <p>レッスンも忙しい高校生の方に無理なく<br class="br-sp" />月２回レッスンも可能ですので<br class="br-pc">安心して<br class="br-sp">始められます。</p>
                     <p>高校生の方で、音大を受験される方や<br class="br-sp" />保育士を目指して頑張っている方が</p>
                     <p>真剣にピアノのレッスンに　励んで<br class="br-sp" />います。</p>
                     <p>夢へのお手伝いが出来ることを、心より<br class="br-sp" />幸せに思っています。</p>
@@ -131,13 +138,13 @@
                 <div class="lesson-content-body col-md-6">
                     <p>私は小さい子供が大好きで、ずっと<br class="br-sp" />保育士になることに憧れていました。</p>
                     <p>保育士とピアノ教師は、小さいお子様に<br class="br-sp" />接するという仕事という共通点が<br class="br-sp" />あります。</p>
-                    <p>保育士は、生活全般を見ていますが、<br class="br-sp" />ピアノ教師は音楽を通して子供の成長を促して<br class="br-pc">います。</p>
-                    <p>子供達が出来なかったことが出来る<br class="br-sp" />ようになる。その過程の瞬間をみられる<br class="br-sp" />という<br class="br-pc">のが最大の喜びです。</p>
+                    <p>保育士は、生活全般を見ていますが、<br class="br-sp" />ピアノ教師は音楽を通して子供の<br class="br-pc">成長を促しています。</p>
+                    <p>子供達が出来なかったことが出来る<br class="br-sp" />ようになる。その過程の瞬間を<br class="br-pc">みられる<br class="br-sp" />というのが最大の喜びです。</p>
                     <p>この子供の成長が見られる仕事に就く<br class="br-sp" />という目標を持った方に</p>
-                    <p>私は、今ピアノ教師として保育士に<br class="br-sp" />なりたい皆さんの応援が出来たらと<br class="br-sp" />思います。</p>
-                    <p>出来ないことが出来るようになって、<br class="br-sp" />得意気に「出来たよ！」と言って笑顔で<br>接してもらえる</p>
+                    <p>私は、今ピアノ教師として保育士に<br class="br-sp" />なりたい皆さんの応援が出来たらと<br class="br-sp" /><br class="br-pc">思います。</p>
+                    <p>出来ないことが出来るようになって、<br class="br-sp" />得意気に「出来たよ！」と言って<br class="br-pc">笑顔で<br class="br-sp">接してもらえる</p>
                     <p>こんな素晴らしい仕事が出来るのは、<br class="br-sp" />本当にやりがいがあります。</p>
-                    <p>どんなに苦しい時も、子供のそんな笑顔<br class="br-sp" />を見ていたら、乗り越えていけるのでは<br>ないでしょうか？</p>
+                    <p>どんなに苦しい時も、子供のそんな笑顔<br class="br-sp" />を見ていたら、乗り越えていける<br class="br-pc">のでは<br class="br-sp">ないでしょうか？</p>
                     <p>子供の成長は、感動の連続です。</p>
                     <p>保育士になるのあたって、大切なことは<br class="br-sp" />何でしょうか？</p>
                     <p>それは、ピアノが弾けることではないで<br class="br-sp" />しょうか？</p>
@@ -147,26 +154,26 @@
                     <p>「もう一回歌いたい」と言って貰えたら<br class="br-sp" />最高です。</p>
                     <p>しかしピアノ練習にもちょっとした<br class="br-sp" />コツは、必要です。</p>
                     <p>そんな、ちょっとしたコツも教えます<br class="br-sp" />ので、安心して下さい。</p>
-                    <p>伴奏のアレンジやコードネームでの演奏<br class="br-sp" />など、個人のレベルに合った練習法が<br>あります。</p>
+                    <p>伴奏のアレンジやコードネームでの演奏<br class="br-sp" />など、個人のレベルに合った<br class="br-pc">練習法が<br class="br-sp">あります。</p>
                     <p>スタートは誰でも同じです。しかし、<br class="br-sp" />これからは努力と根気の差です。</p>
                     <p>努力は人を裏切りません。</p>
                     <p>必ず何倍にもなって、自分に返って<br class="br-sp" />きます。</p>
-                    <p>今、現役の幼稚園の先生のレッスンも<br class="br-sp" />していますが、練習をしている一曲一曲<br class="br-sp" />の<br class="br-pc">その裏に子供の笑顔が浮かんできて</p>
+                    <p>今、現役の幼稚園の先生のレッスンも<br class="br-sp" />していますが、練習をしている<br class="br-pc">一曲一曲<br class="br-sp" />のその裏に子供の笑顔が浮かんできて</p>
                     <p>この曲で楽しんでもらえるかな？という<br class="br-sp" />ワクワクした気持ちでレッスンを<br class="br-pc">して<br class="br-sp" />います。</p>
                     <p>そんな幼稚園の先生のレッスンも、<br class="br-sp" />とても楽しいです。</p>
-                    <p>小さなお子様達のキラキラした瞳に<br class="br-sp" />逢える日を夢見て、保育士という<br class="br-sp" />素晴らしい<br class="br-pc">やりがいのある職業に、<br class="br-sp" />就けるよう</p>
+                    <p>小さなお子様達のキラキラした瞳に<br class="br-sp" />逢える日を夢見て、保育士という<br class="br-sp" /><br class="br-pc">素晴らしいやりがいのある職業に、<br class="br-sp" />就けるよう</p>
                     <p>一緒に頑張っていきましょう☆</p>
                 </div>
                 <div class="lesson-headline">
                     <h2>大人の方へ</h2>
                 </div>
                 <div class="lesson-content-body col-md-6">
-                    <p>大人の方がピアノを習われるのは、<br class="br-sp" />子供の頃習いたかったのに習えなかった<br class="br-sp" />から<br class="br-pc">夢を叶えたいとの思いの方と</p>
-                    <p>子供の頃にピアノを習っていて、子育て<br class="br-sp" />に一段落をしてもう一度ピアノを習い<br class="br-sp" />たい方が<br class="br-pc">見えます。</p>
-                    <p>でも、どちらも大人の方のピアノへの<br class="br-sp" />想いは真剣で、練習もしっかりされて<br class="br-sp" />来られる<br class="br-pc">方が多いです。</p>
-                    <p>30年ぶりに発表会に出演されて、夢が<br class="br-sp" />叶ったと嬉しそうに話される姿を見ると<br class="br-sp" />私も<br class="br-pc">嬉しくなります。</p>
-                    <p>大人の方にとってのピアノレッスンは、<br class="br-sp" />何より癒やしを求めて始められる方が<br class="br-sp" />多いの<br class="br-pc">ではないでしょうか。</p>
-                    <p>「今週は、練習が出来ませんでした」と<br class="br-sp" />申し訳なさそうに話されることも<br class="br-sp" />ありますが</p>
+                    <p>大人の方がピアノを習われるのは、<br class="br-sp" />子供の頃習いたかったのに<br class="br-pc">習えなかった<br class="br-sp" />から夢を叶えたいとの思いの方と</p>
+                    <p>子供の頃にピアノを習っていて、子育て<br class="br-sp" />に一段落をしてもう一度ピアノを<br class="br-pc">習い<br class="br-sp" />たい方が見えます。</p>
+                    <p>でも、どちらも大人の方のピアノへの<br class="br-sp" />想いは真剣で、練習もしっかりされて<br class="br-sp" /><br class="br-pc">来られる方が多いです。</p>
+                    <p>30年ぶりに発表会に出演されて、夢が<br class="br-sp" />叶ったと嬉しそうに話される姿を<br class="br-pc">見ると<br class="br-sp" />私も嬉しくなります。</p>
+                    <p>大人の方にとってのピアノレッスンは、<br class="br-sp" />何より癒やしを求めて始められる<br class="br-pc">方が<br class="br-sp" />多いのではないでしょうか。</p>
+                    <p>「今週は、練習が出来ませんでした」と<br class="br-sp" />申し訳なさそうに話されることも<br class="br-sp" /><br class="br-pc">ありますが</p>
                     <p>何よりピアノが好きである気持ちが、<br class="br-sp" />ひしひしと伝わってきます。</p>
                     <p>大人の方の初心者も募集しております<br class="br-sp" />ので、お問い合わせ下さい。</p>
                     <p>大人の方は、月２回の　無理のない<br class="br-sp" />コースが人気です。</p>
@@ -175,7 +182,7 @@
                 </div>
             </div>
         </div>
-        <div class="philosophy col-md-12 text-align-center">
+        <div class="philosophy col-md-12 mb-5 text-align-center">
             <div class="headline col-md-4">
                 <h2>教室理念</h2>
             </div>

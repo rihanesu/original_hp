@@ -34,7 +34,7 @@
                         <p class="navbar-name">Menu</p>
                     </button>
                     <div class="collapse navbar-collapse col-md-12" id="home-navbar1">
-                        <ul class="navbar-nav col-md-12 justify-content-around">
+                        <ul class="navbar-nav col-md-10 justify-content-around">
                             <li class="nav-item"><a class="nav-link" href="{{ asset('/') }}">トップページ</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ asset('classroom') }}">教室案内</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ asset('teacher') }}">講師紹介</a></li>

@@ -21,9 +21,19 @@ p {
   margin: 10px 0;
 }
 
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+dd {
+  margin-bottom: 20px;
+}
+
 @media screen and (min-width: 650px){
   .br-pc { display:block; }
   .br-sp { display:none; }
+  p {font-size: 16px;}
 }
 @media screen and (max-width: 650px){
   .br-pc { display:none; }
@@ -73,7 +83,7 @@ nav {
     margin: auto;
   }
   .navbar-nav li:hover {
-    transition-duration: 0.8s;
+    transition-duration: 0.6s;
     box-shadow: 0 0 20px rgba(220,44,44,0.4) inset;
   }
   .navbar-name {
@@ -121,8 +131,8 @@ nav {
 .link-border {
   text-decoration: none;
   padding: 5px 20px;
-  border-top: 1px solid #3490dc;
-  border-bottom: 1px solid #3490dc;
+  border-top: 1px solid #212529;
+  border-bottom: 1px solid #212529;
 }
 /*ここまで home */
 
@@ -250,8 +260,8 @@ nav {
 
 /*ここから teacher */
 .teacher-image, .lesson-content-image {
-  width: 70vw;
-  height: 60vw;
+  width: 50vw;
+  height: auto;
   margin-bottom: 50px;
 }
 
@@ -269,7 +279,7 @@ nav {
 }
 
 .lesson-headline, .lesson-guide-title {
-  margin: 80px auto 30px auto;
+  margin: 50px auto 30px auto;
   text-align: center;
 }
 
@@ -308,7 +318,10 @@ nav {
 }
 
 .access-headline {
-  margin: 60px auto 40px auto;
+  margin: 60px auto 0 auto;
+  background: url('image/border1.png') no-repeat center;
+  background-size: 300px;
+  padding-bottom: 50px;
 }
 
 .access-body-under {

@@ -32,58 +32,62 @@
             </div>
             <div class="class-card col-md-12">
                 <div class="top-card row col-md-12">
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-content card1">
-                            <div class="card-title">
-                                <h4>導入　/　初級</h4>
-                            </div>
-                            <img src="{{ asset('image/card0.jpg') }}" class="col-md-12 card-image">
-                            <div class="card-body">
-                                <p>月額　　６０００円</p>
-                                <p>月１回　３０００円</p>
-                                <p>※初級コースは月１回です</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-content card2">
-                            <div class="card-title">
-                                <h4>中級</h4>
-                            </div>
-                            <img src="{{ asset('image/card1.jpg') }}" class="col-md-12 card-image">
-                            <div class="card-body">
-                                <p>月額　　７０００円</p>
-                                <p>月１回　３０００円</p>
-                                <p>月２回　５０００円</p>
+                    <a href="{{ asset('classroom#card-id') }}">
+                        <div class="card" style="width: 15rem;">
+                            <div class="card-content card1">
+                                <div class="card-title">
+                                    <h4>導入　/　初級</h4>
+                                </div>
+                                <img src="{{ asset('image/card1.jpg') }}" class="col-md-12 card-image">
+                                <div class="card-body">
+                                    <p>月額　　６０００円</p>
+                                    <p>月２回　５０００円</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-content card3">
-                            <div class="card-title">
-                                <h4>上級</h4>
-                            </div>
-                            <img src="{{ asset('image/card3.jpg') }}" class="col-md-12 card-image">
-                            <div class="card-body">
-                                <p>月額　　８０００円</p>
-                                <p>月１回　３０００円</p>
-                                <p>月２回　５０００円</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 15rem;">
-                        <div class="card-content card4">
-                            <div class="card-title">
-                                <h4>保育士コース</h4>
-                            </div>
-                            <img src="{{ asset('image/card4.jpg') }}" class="col-md-12 card-image">
-                            <div class="card-body">
-                                <p>月額　　７０００円</p>
-                                <p>月１回　３０００円</p>
-                                <p>月２回　５０００円</p>
+                    </a>
+                    <a href="{{ asset('classroom#card-id') }}">
+                        <div class="card" style="width: 15rem;">
+                            <div class="card-content card2">
+                                <div class="card-title">
+                                    <h4>中級</h4>
+                                </div>
+                                <img src="{{ asset('image/card2.jpg') }}" class="col-md-12 card-image">
+                                <div class="card-body">
+                                    <p>月額　　７０００円</p>
+                                    <p>月２回　５０００円</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
+                    </a>
+                    <a href="{{ asset('classroom#card-id') }}">
+                        <div class="card" style="width: 15rem;">
+                            <div class="card-content card3">
+                                <div class="card-title">
+                                    <h4>上級</h4>
+                                </div>
+                                <img src="{{ asset('image/card3.jpg') }}" class="col-md-12 card-image">
+                                <div class="card-body">
+                                    <p>月額　　８０００円</p>
+                                    <p>月２回　５０００円</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="{{ asset('classroom#card-id') }}">
+                        <div class="card" style="width: 15rem;">
+                            <div class="card-content card4">
+                                <div class="card-title">
+                                    <h4>保育士コース</h4>
+                                </div>
+                                <img src="{{ asset('image/card4.jpg') }}" class="col-md-12 card-image">
+                                <div class="card-body">
+                                    <p>月額　　７０００円</p>
+                                    <p>月２回　５０００円</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
             <div class="class-card-about">
